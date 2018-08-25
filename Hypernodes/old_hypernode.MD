@@ -1,6 +1,6 @@
-# Bismuth Masternodes
+# Bismuth Hypernodes
 
-Yeah, everyone wants to have a Bismuth masternode.  
+Yeah, everyone wants to have a Bismuth Hypernode.  
 Since those are very different from other masternodes, they are called "HyperNodes".  
 Latest update of this doc : August 3, 2018.
 
