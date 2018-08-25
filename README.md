@@ -2,7 +2,7 @@
 Official how tos and base info for [Bismuth Crypto Currency](https://github.com/hclivess/Bismuth).  
 Wallet, mining, nodes and such.
 
-Initiated EggPool Https://EggPool.Net  
+Initiated by EggPool Https://EggPool.Net  
 Now maintained by the Bismuth Foundation.
 
 This is a WIP, your feedback is most welcome.  
