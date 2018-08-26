@@ -4,7 +4,7 @@ Pyenv allow to install as many python versions as you need without breaking the 
 
 ## Prerequisite
 
-`sudo apt-get install -y git make build-essential libssl-dev zlib1g-dev libbz2-dev libreadline-dev libsqlite3-dev wget curl llvm libncurses5-dev libncursesw5-dev xz-utils tk-dev`
+```sudo apt-get install -y git make build-essential libssl-dev zlib1g-dev libbz2-dev libreadline-dev libsqlite3-dev wget curl llvm libncurses5-dev libncursesw5-dev xz-utils tk-dev```
 
 ## Install pyenv_installer
 
@@ -13,10 +13,10 @@ See https://github.com/pyenv/pyenv-installer :
 `curl -L https://github.com/pyenv/pyenv-installer/raw/master/bin/pyenv-installer | bash`
 
 edit `~/.bashrc` and add these lines:  
-`
+```
 export PATH="/root/.pyenv/bin:$PATH"
 eval "$(pyenv init -)"
-eval "$(pyenv virtualenv-init -)"`
+eval "$(pyenv virtualenv-init -)"```
 
 `source ~/.bashrc`
 
@@ -28,4 +28,4 @@ make this version global by default:
 `pyenv global 3.6.4`
 
 reinstall modules  
-`pip install pysocks pycryptodomex requests`
+```pip install pysocks pycryptodomex requests```
