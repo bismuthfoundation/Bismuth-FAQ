@@ -32,3 +32,7 @@ make this version global by default:
 
 reinstall modules  
 ```pip install pysocks pycryptodomex requests```
+
+## Check current python version for your context (shell)
+
+`python --version`
