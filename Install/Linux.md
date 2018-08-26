@@ -11,6 +11,8 @@ Python3.6 or later is needed, as well as matching pip.
 If you need to install a version above what your system ships with, it's recommended to use pyenv.  
 https://askubuntu.com/questions/865554/how-do-i-install-python-3-6-using-apt-get#865569  
 Pyenv allows you to install many versions of python on a single machine without messgin with the default one, used by the system.
+
+See notes for fast and easy install: https://github.com/bismuthfoundation/Bismuth-FAQ/blob/master/Install/pyenv_linux.md
  
 > In order to check your python version , use `python3 --version`
 
