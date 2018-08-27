@@ -25,9 +25,9 @@ Only Add the line(s) you need to change, no need to copy all from config.txt
 ## Node requirements
 
 Running a Bismuth node on a low end server will do more harm than good.
-An SSD is more than welcome to avoir databases lock and good response time.
+An SSD is more than welcome to avoid databases lock and good response time.
 
-4 cores are enough.
+The CPU should have a minimum of 2 cores.
 
 See this (old but still ok) doc about setting up some OS settings.
 https://EggPool.net/pdf/bismuth-open-files.pdf
