@@ -1,4 +1,4 @@
-# Install log on an ubuntu server 18.04 Machine
+# Installation log on an ubuntu server 18.04 Machine
 
 Add `sudo` in front of the apt install commands if your main user is not root.
 These are all the commands I had to type to install a node on a brand new stock server.
