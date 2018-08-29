@@ -88,6 +88,8 @@ About 1h to 1h30 before activation.
 You can close the HN in between
 (attach to the screen, ctrl-c)
 
+> See the Hypernodes list page to check: https://hypernodes.bismuth.live/?page_id=163
+
 # Notes
 
 ## Bismuth node wallet
