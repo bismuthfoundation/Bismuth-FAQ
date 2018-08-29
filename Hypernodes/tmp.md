@@ -28,6 +28,15 @@ Python 3.6+ required
 Install prerequisites:  
 `pip3 install -r requirements.txt`
 
+If you have errors with that, do  
+`apt install build-essential python3-dev`  
+(prefix with sudo if not root)
+
+Then `pip3 install wheel` , then again `pip3 install -r requirements.txt`  
+
+If the requirements do not install, please get in touch on discord to tell what the message is.  
+It can't work if the requirements fail.
+
 ## Config
 
 `cd main`
