@@ -153,3 +153,10 @@ sudo add-apt-repository restricted
 sudo add-apt-repository multiverse```
 
 then `sudo apt update` then retry
+
+## How do you generate a new address in the light wallet?
+Store your wallet.der, or rename it to "my_precious_wallet.der" then run wallet again, it will generate a new wallet.der with a new address.  
+Then from the wallet, you can load any renamed wallet.der
+wallet > load wallet and then choose whichever one you want
+
+
