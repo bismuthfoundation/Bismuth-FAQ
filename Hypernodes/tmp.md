@@ -116,3 +116,7 @@ Default works for a Bismuth install in ~/Bismuth.
 Maybe you have Bismuth installed under ~/Bismuth-4.2.6/  
 Then in you config.txt, use `POW_LEDGER_DB=../../Bismuth-4.2.6/static/ledger.db`
 
+## when running hn_check.py I get ModuleNotFoundError: No Module named 'whatever'
+- check you have python 3.6.4 + via python3 --version
+- make sure you run via python3, not just python
+- no module named... => requirements.txt not ok: rerun `pip3 install -r requirements.txt`
