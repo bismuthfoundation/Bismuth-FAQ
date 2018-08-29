@@ -143,3 +143,13 @@ The logs rotate, they won't fill your disk up
 We are still polishing the reward logic, but granularity should be one hour.  
 That is, if you're down less than one hour, you'll be as good as 100%  
 Real unreg would only come after longer time, like half a day or one full day.
+
+## On some VPS, when installing python3-pip
+Error: E: unable to locate package python3-pip
+
+```sudo add-apt-repository main
+sudo add-apt-repository universe
+sudo add-apt-repository restricted
+sudo add-apt-repository multiverse```
+
+then `sudo apt update` then retry
