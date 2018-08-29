@@ -129,3 +129,8 @@ If you detach from the screen, you can also quietly look at the logs, logs dir u
 ## should I check daily that everything is ok?
 No need to, unless you are stuck  
 The logs rotate, they won't fill your disk up
+
+## How long can I be missing before I get unregistered?
+We are still polishing the reward logic, but granularity should be one hour.  
+That is, if you're down less than one hour, you'll be as good as 100%  
+Real unreg would only come after longer time, like half a day or one full day.
