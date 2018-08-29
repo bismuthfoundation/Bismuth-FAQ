@@ -147,16 +147,18 @@ Real unreg would only come after longer time, like half a day or one full day.
 ## On some VPS, when installing python3-pip
 Error: E: unable to locate package python3-pip
 
-```sudo add-apt-repository main
+```
+sudo add-apt-repository main
 sudo add-apt-repository universe
 sudo add-apt-repository restricted
-sudo add-apt-repository multiverse```
+sudo add-apt-repository multiverse
+```
 
-then `sudo apt update` then retry
+then `sudo apt update` and retry
 
 ## How do you generate a new address in the light wallet?
 Store your wallet.der, or rename it to "my_precious_wallet.der" then run wallet again, it will generate a new wallet.der with a new address.  
-Then from the wallet, you can load any renamed wallet.der
+Then from the wallet, you can load any renamed wallet.der  
 wallet > load wallet and then choose whichever one you want
 
 
