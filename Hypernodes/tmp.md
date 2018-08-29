@@ -97,3 +97,22 @@ No constraint on the wallet: the wallet this node uses can be anything, do *NOT*
 
 Your collateral wallet is only used to activate your HN, then it can be cold stored.  
 Do not upload it ever.
+
+
+# Some IRL questions
+
+## Is it fine to put the BIS collateral address as the reward address?
+It won't  bug, but it's better to use another address:  
+- your collateral wallet stays cold
+- no activity on the colateral address, safer and faster to check
+
+## bis url: everything is pre-filled but amount is 0, not 1, is that ok?
+No bis is harmed for registration.  
+You send 0 bis, but some data, so there are a few fees.  
+Why we said to have 1 BIS, so it covers for some TX should you make more later on
+
+## POW_LEDGER_DB=/path/to/the/ledger.db is not found by hn_check?
+Default works for a Bismuth install in ~/Bismuth.  
+Maybe you have Bismuth installed under ~/Bismuth-4.2.6/  
+Then in you config.txt, use `POW_LEDGER_DB=../../Bismuth-4.2.6/static/ledger.db`
+
