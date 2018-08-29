@@ -33,7 +33,7 @@ Install prerequisites:
 `cd main`
 
 If your bismuth install is not in the default directory, give the path:  
-`nano config.txt`
+`nano config.txt`  (this will create a new file, no config.txt is in the release so it won't be changed by updates)
 add a line:
 `POW_LEDGER_DB=/path/to/the/ledger.db`
 
