@@ -1,6 +1,6 @@
 # Temp Instructions
 
-DO NOT USE YET, For team purposes only.
+For testing purposes, will evolve in the upcoming days.
 
 ## Bismuth node
 
@@ -17,7 +17,7 @@ Refer to https://github.com/EggPool/BismuthHowto/blob/master/Install/Linux.md#os
 move to your home dir and get the stuff  
 ```
 cd
-wget url_of_the_tar.gz
+wget http://bp12.eggpool.net/hypernode.tar.gz
 tar -zxvf hypernode.tar.gz
 cd hypernode
 ```
