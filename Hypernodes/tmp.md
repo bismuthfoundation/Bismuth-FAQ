@@ -84,7 +84,7 @@ Your hypernode account address is the address given by hn_check, so is your ip a
 
 ## Wait
 
-About 1h to 1h30 before activation.
+About 1h to 1h30 before activation, can take up to 3 hours, please be patient.
 You can close the HN in between
 (attach to the screen, ctrl-c)
 
