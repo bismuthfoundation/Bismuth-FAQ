@@ -122,3 +122,10 @@ Then in you config.txt, use `POW_LEDGER_DB=../../Bismuth-4.2.6/static/ledger.db`
 - check you have python 3.6.4 + via python3 --version
 - make sure you run via python3, not just python
 - no module named... => requirements.txt not ok: make sure you are in the top level dir, where the requirementS.txt file is, and rerun `pip3 install -r requirements.txt`. If you are in ~/hypernode/main, run `pip3 install -r ../requirements.txt`
+
+## The logs scroll too fast, Can't see the line in red!
+If you detach from the screen, you can also quietly look at the logs, logs dir under "main", and search for `[E` to get the errrors for instance.
+
+## should I check daily that everything is ok?
+No need to, unless you are stuck  
+The logs rotate, they won't fill your disk up
