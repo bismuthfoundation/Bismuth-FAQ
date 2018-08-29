@@ -26,7 +26,7 @@ cd hypernode
 
 Python 3.6+ required  
 Install prerequisites:  
-`pip3 install -r requirements`
+`pip3 install -r requirements.txt`
 
 ## Config
 
