@@ -74,11 +74,13 @@ python3 hn_instance.py -v
 
 Go to https://hypernodes.bismuth.live/?page_id=48
 
-Your hypernode account address is the address given by hn_check, so is your ip address
+Your hypernode account address is the address given by hn_check, so is your ip address.
 
-Get the bis url
 
-paste in wallet, load, send
+- Get the bis url
+- Paste in wallet - as is, "send" tab, "bis url" field. 
+- click "load" button, it will prefill all fields so you can check what is does.  
+- Hit "send" button to send the signed transaction and confirm.
 
 ## Wait
 
