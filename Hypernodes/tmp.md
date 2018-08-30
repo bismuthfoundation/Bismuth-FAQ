@@ -77,19 +77,34 @@ screen -S hypernode
 python3 hn_instance.py -v
 ```
 
-`ctrl-a d` to detach, `screen -x hypernode` to reattach
+`ctrl-a d` to detach, `screen -x hypernode` to reattach  
+Make sure you don't run several nodes or screen. -S is only the first time, to *create* a screen. Then it's -x to attach to an existing screen.  
+You can use `screen -ls` to list every one.
+
+## Prepare some addresses
+See faq below on how to create more addresses
+
+* Create a new address for the collateral, send it exactly 10001 BIS (collateral + 1 bis for the txs fees)
+* You create another address for the rewards, or use your current address for that purpose
 
 ## Register
 
 Go to https://hypernodes.bismuth.live/?page_id=48
 
-Your hypernode account address is the address given by hn_check, so is your ip address.
+Your hypernode account address is the address given by hn_check, so is your ip address.  
+This has to be done *from your dedicated collateral address* (it's a message to self).
 
 
 - Get the bis url
 - Paste in wallet - as is, "send" tab, "bis url" field. 
 - click "load" button, it will prefill all fields so you can check what is does.  
 - Hit "send" button to send the signed transaction and confirm.
+
+If your HN is running, but the check says it's not, maybe your firewall is blocking.  
+On ubuntu, use 
+* `sudo ufw allow 6969` to open the HN port
+* `sudo ufw allow 5658` to open the node port
+(do both)
 
 ## Wait
 
