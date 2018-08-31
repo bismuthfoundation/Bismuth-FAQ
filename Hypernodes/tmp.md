@@ -171,6 +171,10 @@ sudo add-apt-repository multiverse
 
 then `sudo apt update` and retry
 
+## On some VPS, when pip3 install: "No module named 'setuptools'"
+`pip3 install setuptools`, then redo the pip3 install
+
+
 ## How do you generate a new address in the light wallet?
 Store your wallet.der, or rename it to "my_precious_wallet.der" then run wallet again, it will generate a new wallet.der with a new address.  
 Then from the wallet, you can load any renamed wallet.der  
