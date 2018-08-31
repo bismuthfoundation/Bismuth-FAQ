@@ -30,6 +30,9 @@ rename to Bismuth: `mv Bismuth-4.2.6 Bismuth`
 - `pip3 install -r requirements-node.txt`
 - `clear` because it broke my terminal
 
+*Note*: On some vps, we get an error there, setuptools related.  
+Just do `pip3 install setuptools` and do the pip3 install -r ... again 
+
 ## Run in a screen
 
 - `screen -S BIS_NODE`
