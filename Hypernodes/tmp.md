@@ -84,7 +84,8 @@ Make sure you don't run several nodes or screen. -S is only the first time, to *
 You can use `screen -ls` to list every one.
 
 ## Prepare some addresses
-See faq below on how to create more addresses
+*This step is to be done on your local Wallet*.  
+See faq below on how to create more addresses. 
 
 * Create a new address for the collateral, send it exactly 10001 BIS (collateral + 1 bis for the txs fees)
 * You create another address for the rewards, or use your current address for that purpose
@@ -94,7 +95,7 @@ See faq below on how to create more addresses
 Go to https://hypernodes.bismuth.live/?page_id=48
 
 Your hypernode account address is the address given by hn_check.py from the earlier step, so is your ip address.  
-This has to be done *from your dedicated collateral address* (it's a message to self).
+This has to be done *from your dedicated collateral address* (it's a message to self), from your local wallet then.
 
 
 - Get the reg bis url
@@ -102,7 +103,7 @@ This has to be done *from your dedicated collateral address* (it's a message to 
 - click "load" button, it will prefill all fields so you can check what is does.  
 - Hit "send" button to send the signed transaction and confirm.
 
-If your HN is running, but the check says it's not, maybe your firewall is blocking.  
+If your HN is running, but the check says it's not, maybe your vps firewall is blocking.  
 On ubuntu, use 
 * `sudo ufw allow 6969` to open the HN port
 * `sudo ufw allow 5658` to open the node port
