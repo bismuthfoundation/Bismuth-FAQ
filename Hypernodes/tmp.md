@@ -68,6 +68,8 @@ running_instances : 0
 POW_LEDGER_DB : "../../Bismuth-master/static/ledger.db"
 ```
 
+Keep that info for future reference.
+
 ## Run the HN
 
 Running in a 'screen' command could prove useful
@@ -91,11 +93,11 @@ See faq below on how to create more addresses
 
 Go to https://hypernodes.bismuth.live/?page_id=48
 
-Your hypernode account address is the address given by hn_check, so is your ip address.  
+Your hypernode account address is the address given by hn_check.py from the earlier step, so is your ip address.  
 This has to be done *from your dedicated collateral address* (it's a message to self).
 
 
-- Get the bis url
+- Get the reg bis url
 - Paste in wallet - as is, "send" tab, "bis url" field. 
 - click "load" button, it will prefill all fields so you can check what is does.  
 - Hit "send" button to send the signed transaction and confirm.
@@ -105,6 +107,8 @@ On ubuntu, use
 * `sudo ufw allow 6969` to open the HN port
 * `sudo ufw allow 5658` to open the node port
 (do both)
+
+Please also store both reg and unreg bis url for future use (like raising your collateral)
 
 ## Wait
 
