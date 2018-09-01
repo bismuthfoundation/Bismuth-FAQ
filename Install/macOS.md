@@ -13,7 +13,7 @@ If you don't have Homebrew installed (`brew` command in the Terminal), please fo
 
 ### Install Python3
 
-```
+```shell
 $ brew install python3   # this will also install pip3
 ```
 
