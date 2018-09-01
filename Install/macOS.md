@@ -21,11 +21,9 @@ macOS default Python 2.7 version remains available via the `python` and `pip` co
 
 From now on, rather type `python3` and `pip3` to use the newly installed Python 3.
 
-Manually install some dependencies just to make sure you have the latest versions:
+Manually install this dependency just to make sure you have the latest version:
 ```
 $ pip3 install --upgrade simple-crypt
-$ pip3 install --upgrade pillow
-$ pip3 install --upgrade pycryptodomex
 ```
 
 ### Install Wget
@@ -36,13 +34,13 @@ $ brew install wget
 
 ## Download and Install the wallet
 Copy the latest **_Source code (tar.gz)_** URL from [https://github.com/hclivess/Bismuth/releases](https://github.com/hclivess/Bismuth/releases) (currently `4.2.6.2.tar.gz`) and paste it after the `wget` command as shown below:
-```
+```shell
 $ cd     # go to Home folder. Use another path here if you don't want the wallet in your Home
 $ wget https://github.com/hclivess/Bismuth/archive/4.2.6.2.tar.gz
 ```
 
 Then:
-```
+```shell
 $ tar -zxvf 4.2.6.2.tar.gz          # Extract the archive
 $ mv Bismuth-4.2.6.2 Bismuth        # Rename "Bismuth-4.2.6.2" folder to "Bismuth"
 $ cd Bismuth                        # Enter "Bismuth" folder
