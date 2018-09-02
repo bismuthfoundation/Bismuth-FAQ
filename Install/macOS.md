@@ -56,6 +56,6 @@ Note: with the light wallet you don't need a Bismuth node anymore, nor a complet
 $ python3 wallet.py
 ```
 
-This will create a new `wallet.der` file in the _Bismtuh_ folder.
+This will create a new `wallet.der` file in the _Bismuth_ folder.
 This is your wallet, **backup that file in a safe place**.
-If you already have a wallet, place your `wallet.der` in the _Bismtuh_ folder before running the wallet.
+If you already have a wallet, place your `wallet.der` in the _Bismuth_ folder before running the wallet.
