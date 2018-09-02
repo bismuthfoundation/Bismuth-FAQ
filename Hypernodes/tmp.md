@@ -71,7 +71,11 @@ running_instances : 0
 POW_LEDGER_DB : "../../Bismuth-master/static/ledger.db"
 ```
 
-Keep that info for future reference.
+Keep that info for future reference.  
+
+*Note*: If you have `external_ip : "/bin/sh: 1: curl: not found"` message, do  
+`sudo apt install curl`  
+and retry the hn_check
 
 ## Run the HN
 
