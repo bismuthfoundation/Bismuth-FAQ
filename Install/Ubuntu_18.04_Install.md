@@ -6,7 +6,7 @@ These are all the commands I had to type to install a node on a brand new stock 
 ## First login
 
 - Change pass or config to use certificates instead of password (advanced user)
-- `apt update` àpt upgrade` `apt dist-upgrade`
+- Update system: `apt update`  `apt upgrade`  `apt dist-upgrade`
 - reboot
 
 ## Check prerequisites
