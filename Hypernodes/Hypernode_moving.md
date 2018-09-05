@@ -2,7 +2,7 @@
 
 What to do when you move or migrate a Hypernode?
 
-## The registration
+## The registration
 
 The registration message links many things together:  
 - The collateral Wallet (only one per HN allowed)
@@ -16,7 +16,7 @@ When you register via the helper page https://hypernodes.bismuth.live/?page_id=4
 
 Nothing to do, if all (including IP address) stays the same.
 
-## Something changed
+## Something changed
 
 You have to unreg first using the unreg bis url.  
 
