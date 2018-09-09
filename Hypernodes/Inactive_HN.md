@@ -21,7 +21,7 @@ If it's down, obviously restart it.
 ### It's stuck, last logs are not current
 Close it, then restart it
 
-## Pre-emptive cure
+## Pre-emptive cure
 If you feel comfortable with crontabs, see https://github.com/bismuthfoundation/hypernode/tree/master/crontab
 
 There are cronjobs to monitor your HN and restart it, should it close.
