@@ -1,6 +1,15 @@
 # Temp Instructions
 
-For testing purposes, will evolve in the upcoming days.
+> **Important**: These instructions refered to the first launched version of the hypernodes.  They are **no more up to date**.  
+Please see https://github.com/bismuthfoundation/Bismuth-FAQ/blob/master/Hypernodes/Hypernodes_Install_0-0-95.md for current instructions.
+
+> **Important**: These instructions refered to the first launched version of the hypernodes.  They are **no more up to date**.  
+Please see https://github.com/bismuthfoundation/Bismuth-FAQ/blob/master/Hypernodes/Hypernodes_Install_0-0-95.md for current instructions.
+
+> **Important**: These instructions refered to the first launched version of the hypernodes.  They are **no more up to date**.  
+Please see https://github.com/bismuthfoundation/Bismuth-FAQ/blob/master/Hypernodes/Hypernodes_Install_0-0-95.md for current instructions.
+
+
 
 ## Bismuth node
 
