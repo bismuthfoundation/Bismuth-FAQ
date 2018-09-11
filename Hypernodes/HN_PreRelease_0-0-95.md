@@ -60,7 +60,7 @@ Set `AUTO_UPDATE=False` in your config.txt to disable this feature. You will thh
 ### ALLOW_QUERIES_FROM
 
 Default is 127.0.0.1 and two dev operated nodes.  
-Some queries can take a significant CPU and DB resources. To avoid DoS type attacks, they are limited to a whitelist of source ips.
+Some queries can use significant CPU and DB resources. To avoid DoS type attacks, they are limited to a whitelist of source ips.
 
 No need to change that unless you need to query (hn_client.py, hypernodes command) a specific HN of yours from a specific place.  
 Only useful if you know what this means.
