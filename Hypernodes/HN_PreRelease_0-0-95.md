@@ -32,9 +32,31 @@
 
 ### Colored lists
 
+Usually, changes to the node core behaviour are done via code update. The dev pushes and update with a trigger block in the future; everyone is supposed to update (many do not in time and are then stuck), then the change or hard fork takes place later on.  
+With the hypernodes, hark forks still will require a code update, but some tuning parameters can be adjusted by the devs also.  
+For instance, in order to limit the bandwith used by the hypernodes, there is a max limit to the number of peers your Hypernode tries to connect to. This spares cpu and bandwith, for you and the whole HN net.  
+But as the HN net grows, this setting may need to be adjusted so that you still can reach a high enough consensus.  
+Same for the minimal consensus needed to forge a block.
 
+These tuning parameters can now be adjusted network wide, on a new round, and will apply to every HN at the same time.  
+They are sent from a trusted source on the PoW chain, dev controlled, and propagated via the companion plugin.
+
+Several "colored" lists of parameters can be synced this way over the network, making it easier to react to an emergency situation or evolve some params in response to a significant network change, without any manual intervention from the Hypernodes owners.
 
 ## New config variables
+
+
+
+
+## Hard Fork
+A small Hark fork will be activated on Sept 13, 08:00 UTC.  
+Until now, inactive Hypernodes still were participating in the juror slots election and could have a tickets, then a slot.  
+After the fork, the inactive HNs are remove from the election.  
+
+This does not change anything for the rewards: if your Hypernode was inactive and came back to live, he still will be considered as active no matter what.  
+This just secures the PoS side a little more and makes sure all slots can be forged.
+
+You **HAVE** to update to 0.0.95+ before that date or you may fork.
 
 ### 
 
