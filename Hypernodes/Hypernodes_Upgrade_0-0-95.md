@@ -4,6 +4,8 @@ See what's new: https://github.com/bismuthfoundation/Bismuth-FAQ/blob/master/Hyp
 
 If it's a new install, see: https://github.com/bismuthfoundation/Bismuth-FAQ/blob/master/Hypernodes/Hypernodes_Install_0-0-95.md
 
+> **Ongoing** , please wait ;)
+
 ## What are the incidence on my rewards?
 
 - If you follow the steps, you'll just get a few minutes down time, no impact
