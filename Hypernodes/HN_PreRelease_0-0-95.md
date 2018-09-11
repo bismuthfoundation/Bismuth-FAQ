@@ -2,6 +2,8 @@
 
 - Each file has its own version. The "Hypernode code" version we're refering to will always be the version of the HN core, that is modules/poshn.py
 - 0.0.95 is the pre-release. If tested ok, this will become the first real Hypernode release, 0.1.0
+- Updated install instructions: https://github.com/bismuthfoundation/Bismuth-FAQ/blob/master/Hypernodes/Hypernodes_Install_0-0-95.md
+- upgrading from a previous version: https://github.com/bismuthfoundation/Bismuth-FAQ/blob/master/Hypernodes/Hypernodes_Upgrade_0-0-95.md 
 
 ## What's New?
 
