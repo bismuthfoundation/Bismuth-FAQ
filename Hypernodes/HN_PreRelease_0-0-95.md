@@ -15,7 +15,7 @@
 
 - Several bugfixes, including a possible fix to stuck HN
 - added crontab to restart Hypernode should it close
-- added crontab to stop a frozen Hypernode
+- added crontab to stop a frozen Hypernode (which then auto-restarts)
 
 ### Automatic Update
 
@@ -43,10 +43,32 @@ They are sent from a trusted source on the PoW chain, dev controlled, and propag
 
 Several "colored" lists of parameters can be synced this way over the network, making it easier to react to an emergency situation or evolve some params in response to a significant network change, without any manual intervention from the Hypernodes owners.
 
+Nothing goes under the radar: all goes through the PoW chain, meaning full traceability and immutability of what params were sent and when.
+
 ## New config variables
 
+> **Important reminder**: *Never* edit config.py nor config.default.txt : You only have to create and edit config.txt, this is *YOUR* config and will not change whatever updates. Both config.py and config.default.txt will be overwritten on updates.  
+Only set in config.txt what you need to setup, never the full var list.
 
+### AUTO_UPDATE
 
+Default is True.  
+Set `AUTO_UPDATE=False` in your config.txt to disable this feature. You will thhen have to monitor and apply the upgrades yourself.
+
+### ALLOW_QUERIES_FROM
+
+Default is 127.0.0.1 and two dev operated nodes.  
+Some queries can take a significant CPU and DB resources. To avoid DoS type attacks, they are limited to a whitelist of source ips.
+
+No need to change that unless you need to query (hn_client.py, hypernodes command) a specific HN of yours from a specific place.  
+Only useful if you know what this means.
+
+### PYTHON_EXECUTABLE
+
+This one was there already but no doc.  
+If your python invocation is not the standard `python3`, then you can override it there, for instance:
+
+`PYTHON_EXECUTABLE=/usr/local/bin/python3.7`
 
 ## Hard Fork
 A small Hark fork will be activated on Sept 13, 08:00 UTC.  
