@@ -1,6 +1,6 @@
 # Bismuth HyperNodes FAQ
 
-V1.0 - draft
+2018-09-11: V 0.0.95 Hypernode Pre-release, see https://github.com/bismuthfoundation/Bismuth-FAQ/blob/master/Hypernodes/HN_PreRelease_0-0-95.md
 
 
 ## Foreword
