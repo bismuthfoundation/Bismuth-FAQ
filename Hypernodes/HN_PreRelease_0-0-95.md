@@ -1,6 +1,6 @@
 # Change log for Hypernodes v0.0.95
 
-- Each file has its own version. The "Hypernode code" version I'm refering to will always be the version of the HN core, that is modules/poshn.py
+- Each file has its own version. The "Hypernode code" version we're refering to will always be the version of the HN core, that is modules/poshn.py
 - 0.0.95 is the pre-release. If tested ok, this will become the first real Hypernode release, 0.1.0
 
 ## What's New?
@@ -43,7 +43,7 @@ They are sent from a trusted source on the PoW chain, dev controlled, and propag
 
 Several "colored" lists of parameters can be synced this way over the network, making it easier to react to an emergency situation or evolve some params in response to a significant network change, without any manual intervention from the Hypernodes owners.
 
-Nothing goes under the radar: all goes through the PoW chain, meaning full traceability and immutability of what params were sent and when.
+*Nothing goes under the radar*: all goes through the PoW chain, meaning full traceability and immutability of what params were sent and when.
 
 ## New config variables
 
@@ -72,7 +72,7 @@ If your python invocation is not the standard `python3`, then you can override i
 
 ## Hard Fork
 A small Hark fork will be activated on Sept 13, 08:00 UTC.  
-Until now, inactive Hypernodes still were participating in the juror slots election and could have a tickets, then a slot.  
+Until now, inactive Hypernodes still were participating in the juror slots election and could have a ticket, then a slot.  
 After the fork, the inactive HNs are remove from the election.  
 
 This does not change anything for the rewards: if your Hypernode was inactive and came back to live, he still will be considered as active no matter what.  
