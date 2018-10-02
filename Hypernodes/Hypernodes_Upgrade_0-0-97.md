@@ -39,18 +39,22 @@ If you have bismuth into Bismuth-4.2.6/... then it's time to change to ease futu
 
 1. Fetch and extract the latest node code:
 
-```cd 
+```
+cd 
 wget https://github.com/hclivess/Bismuth/archive/4.2.7.tar.gz
-tar -zxvf 4.2.7.tar.gz```
+tar -zxvf 4.2.7.tar.gz
+```
 
 This extracts the code to "Bismuth-4.2.7"
 
 2. **Optionally**, make a backup:
 
-```mkdir Bismuth.bak
+```
+mkdir Bismuth.bak
 cp Bismuth/*.py Bismuth.bak
 cp Bismuth/*.txt Bismuth.bak
-cp Bismuth/*.der Bismuth.bak```
+cp Bismuth/*.der Bismuth.bak
+```
 
 3. Update the node code
 `cp Bismuth-4.2.7/*.py Bismuth`
@@ -61,9 +65,11 @@ cp Bismuth/*.der Bismuth.bak```
 
 The 3 important things to check are:
 
-```version_allow=mainnet0017,mainnet0018,mainnet0019
+```
+version_allow=mainnet0017,mainnet0018,mainnet0019
 terminal_output=True
-quicksync=False```
+quicksync=False
+```
 
 Change these lines is they say otherwise.
 
