@@ -1,9 +1,10 @@
-# Install Instructions, Hypernode v0.0.95
+# Install Instructions, Hypernode v0.0.97
 
 0.0.95 is the pre-release, pushed on 2018-09-11
+0.0.97 is latest pre-release, pushed on 2018-10-02
 
-If upgrading from a previous version, see  
-https://github.com/bismuthfoundation/Bismuth-FAQ/blob/master/Hypernodes/Hypernodes_Upgrade_0-0-95.md instead
+If upgrading from an older version, see  
+https://github.com/bismuthfoundation/Bismuth-FAQ/blob/master/Hypernodes/Hypernodes_Upgrade_0-0-97.md instead
 
 ## Bismuth node
 
