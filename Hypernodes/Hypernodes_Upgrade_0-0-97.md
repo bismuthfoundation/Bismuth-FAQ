@@ -108,12 +108,15 @@ Upgrade the code:
 ## Run the check 
 
 - go into the main hypernode/main dir `cd main`
-- run the check `python3 hn_check.py`
+- run the check `python3 hn_check.py`  
+- it will complain about node related things, powstatus...: nevermind, it did install the node plugin, that was required.
 
 ## Restart the node
 
-- `screen -x node`
-- `python3 node.py`
+- `screen -x node`  
+- `python3 node.py`  
+- exit the node screen `ctrl-a d`  
+- now, you can relaunch `python3 hn_check.py`. Make sure all is ok before going further on.  
 
 ## Restart your HN: 
 - enter the hypernode screen `screen -x hypernode`
