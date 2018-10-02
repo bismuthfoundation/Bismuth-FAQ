@@ -19,10 +19,10 @@ These are all the commands I had to type to install a node on a brand new stock 
 
 ```
 cd
-wget https://github.com/hclivess/Bismuth/archive/4.2.6.tar.gz
-tar -zxvf 4.2.6.tar.gz
+wget https://github.com/hclivess/Bismuth/archive/4.2.7.tar.gz
+tar -zxvf 4.2.7.tar.gz
 ```
-rename to Bismuth: `mv Bismuth-4.2.6 Bismuth`
+rename to Bismuth: `mv Bismuth-4.2.7 Bismuth`
 
 ## Install node dependences
 
@@ -42,6 +42,9 @@ Shows: Database needs upgrading, bootstrapping...
 Downloaded 0 %  
 Downloaded 1 %  
 ...  
+
+Also "Creating Junction Noise file, this usually takes a few minutes..."  
+effectively takes about 3 minutes.  Do not stop it.  
 
 Then begins to test chain coherence, moves to ram, and syncs.
 
