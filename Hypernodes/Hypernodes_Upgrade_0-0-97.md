@@ -56,7 +56,7 @@ cp Bismuth/*.txt Bismuth.bak
 cp Bismuth/*.der Bismuth.bak
 ```
 
-3. Update the node code
+3. Update the node code  
 `cp Bismuth-4.2.7/*.py Bismuth`
 
 4. Double check your config.txt
@@ -73,12 +73,12 @@ quicksync=False
 
 Change these lines is they say otherwise.
 
-5. Restart node with up to date code
+5. Restart node with up to date code  
 > `screen -ls` will list all your screens if you forgot the node screen name.  
 I'll suppose it's "node"
 
-`screen -x node`to enter the screen
-`ctrl-c` to kill the node
+`screen -x node`to enter the screen  
+`ctrl-c` to kill the node  
 `python3 node.py` to restart the node.
 
 It will say "Creating Junction Noise file, this usually takes a few minutes..."   
