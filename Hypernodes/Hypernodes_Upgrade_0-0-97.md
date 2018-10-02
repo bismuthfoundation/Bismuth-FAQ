@@ -1,5 +1,7 @@
 # Bismuth Hypernode: Upgrade to 0.0.97
 
+**Hypernode Version 0.0.97 is a required update before Sunday Oct 7, 14h UTC**
+
 What's new:
 - more checks
 - updated companion plugin
@@ -9,6 +11,8 @@ If it's a new install, see: https://github.com/bismuthfoundation/Bismuth-FAQ/blo
 (same steps, will install 0.0.97).
 
 **Crucial steps are making sure your node is at least 4.2.7 , as well as running hn_check**
+
+
 
 ## What are the incidence on my rewards?
 
