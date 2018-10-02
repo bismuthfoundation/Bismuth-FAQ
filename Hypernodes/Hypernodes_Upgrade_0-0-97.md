@@ -72,7 +72,7 @@ terminal_output=True
 quicksync=False
 ```
 
-Change these lines is they say otherwise.
+Change these lines if they say otherwise.
 
 5. Restart node with up to date code  
 > `screen -ls` will list all your screens if you forgot the node screen name.  
