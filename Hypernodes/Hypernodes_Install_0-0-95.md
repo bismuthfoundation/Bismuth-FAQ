@@ -10,7 +10,9 @@ https://github.com/bismuthfoundation/Bismuth-FAQ/blob/master/Hypernodes/Hypernod
 
 I suppose you already have a regular Bismuth node installed.  
 
-If not, see https://github.com/bismuthfoundation/Bismuth-FAQ/blob/master/Install/Linux.md or the quick version for Ubuntu 18 (recommended): https://github.com/bismuthfoundation/Bismuth-FAQ/blob/master/Install/Ubuntu_18.04_Install.md
+If not, see https://github.com/bismuthfoundation/Bismuth-FAQ/blob/master/Install/Linux.md  
+or better, the quick version for Ubuntu 18 (*highly recommended*):  
+https://github.com/bismuthfoundation/Bismuth-FAQ/blob/master/Install/Ubuntu_18.04_Install.md
 
 We'll suppose it lies in you home dir, then Bismuth  
 `~/Bismuth`
