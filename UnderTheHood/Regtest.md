@@ -24,7 +24,7 @@ When launched in regtest mode:
 - peers is peers_reg.txt and is empty
 - suggested peers is also peers_reg.txt
 
-## The config
+## The config
 
 In order to activate the regtest mode, add these lines at the end of your `config_custom.txt`:
 ```
