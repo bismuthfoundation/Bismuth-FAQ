@@ -184,11 +184,41 @@ See demo script for usage: https://github.com/hclivess/Bismuth/blob/master/demo_
 
 # Bismuth config
 
-An excerpt of the important config items that may need tweaking in the context of running on an exchange.
+See https://github.com/bismuthfoundation/Bismuth-FAQ/blob/master/Nodes/Node_config.MD
 
-WIP
+Here is an excerpt of the important config items that may need tweaking in the context of running on an exchange.  
+Non listed params have to stick to the defaults.
+
+- "version" and "version_allow" are Hard fork related
+- "thread_limit" is the number of possible clients to accept. 24 is the default.  
+  You can raise to 50 to have a wider connectivity.
+- "allowed" is the list of ips allowed to execute specific commands, like the wallet functions, mpinsert...  
+  You want to remove "any" from that list and only list your own safe ips there.
+- "reveal_address" You probably want to set to False if you don't want your node ip/address to be linked.  
+  You can let to "True" if your node runs on an unused address (advised)
+- "whitelist": Having a few team operated nodes and pool nodes in your whitelit definitely can help stay synced. Ask us.
+- "mempool_allowed" is the list of address to accept txs from, even if the mempool is full.
+- set "terminal_output" to True to get more console feedback
+- set "mempool_ram_conf" to False if you plan to access the mempool db from scripts.
+
+# Extra plugin
+
+Some large scale attacks come from some specific IPS or cloud services.  
+We strongly advise to run the hypernode plugin on your node. Although designed for the Hypernodes, it does not require one, and adds the following features:
+
+- powstatus.json file with current state of the node
+- ip filtering of peers based upon on chain synced black and whitelists
+
+Just add the plugin file in a plugins/500_hypernode/ directory of your Bismuth install.  
+https://github.com/bismuthfoundation/hypernode/blob/master/node_plugin/__init__.py  
+
+Needs 
+- `pip3 install dnspython3`
+- `pip3 install ipwhois`
 
 # Regtest mode
+
+Bismuth now comes with a regtest mode
 
 https://github.com/bismuthfoundation/Bismuth-FAQ/blob/master/UnderTheHood/Regtest.md
 
