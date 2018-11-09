@@ -29,8 +29,8 @@ and FAQ https://github.com/bismuthfoundation/Bismuth-FAQ/
 
 Most of the companion projects are under the BismuthFoundation organization or EggPool
 
-- Bismuth plugins https://github.com/bismuthfoundation/BismuthPlugins  
 - Native API Doc https://github.com/EggPool/BismuthAPI
+- Bismuth plugins https://github.com/bismuthfoundation/BismuthPlugins  
 - Json-RPC Server https://github.com/EggPool/BismuthRPC
 - Console wallet demo https://github.com/bismuthfoundation/Antimony
 
@@ -75,6 +75,40 @@ Doc and structure to be released if needed.
   You can insert new tx in the mempool db directly
 
 # Global Flow
+
+## Deposits
+
+Two choices
+
+A/ One deposit address per user
+
+Pros:
+- Easier for the user
+
+Cons:
+- Many keys to create, handle and safe store
+- requires large number of internal tx (with fees) to transfer between wallets  
+  (large % of deposits are likely to end up on a different wallet)
+- need to watch incoming blocks for all users addresses
+
+B/ A single deposit address, and user specific id in the "data" (message) field of the transaction.
+
+Pros:
+- Single address to watch
+- Single spending key to safe store
+- No fees to transfer between wallets
+
+Cons:  
+- Users can forget the message.  
+Workaround:
+- We can hardcode your exchange address in the wallet, so they can't send to you without a message
+- You can send back the empty messages funds after some time, run some garbage collector.
+
+> We advise to use the B/ approach.
+
+## Withdrawals
+
+WIP
 
 # Code examples
 
