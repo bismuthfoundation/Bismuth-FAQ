@@ -7,8 +7,8 @@ Some WIP notes to ease the job of wanna be exchanges.
 ## Python
 
 BIS needs python 3.6+ and a few dependencies. It comes with classic requirements.txt files.
-- it's config is a config.txt in its dir.
-- it's chain data is several sqlite db in it's static subdirectory
+- its config is a config.txt in its dir.
+- its chain data is several sqlite db in it's static subdirectory
 - it can use an on disk mempool.db in its directory
 
 ## BIS is no BTC clone
