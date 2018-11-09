@@ -72,7 +72,7 @@ Doc and structure to be released if needed.
 - `static/hyper.db`: pruned chain
 - `static/index.db`: additionnal index db
 - `mempool.db`: to be embedded transactions.  
-  You can insert new tx in the mempool db directly
+  You can insert new tx in the mempool db directly. Example below.
 
 # Global Flow
 
@@ -87,11 +87,12 @@ Pros:
 
 Cons:
 - Many keys to create, handle and safe store
-- requires large number of internal tx (with fees) to transfer between wallets  
-  (large % of deposits are likely to end up on a different wallet)
-- need to watch incoming blocks for all users addresses
+- Requires large number of internal tx (with fees) to transfer between wallets  
+  (large % of deposits are likely to end up on a different wallet for withdrawal).  
+  Dust + fees
+- Needs to watch incoming blocks for all users addresses
 
-B/ A single deposit address, and user specific id in the "data" (message) field of the transaction.
+B/ A single deposit address, plus user specific id in the "data" (message) field of the transaction.
 
 Pros:
 - Single address to watch
@@ -99,8 +100,9 @@ Pros:
 - No fees to transfer between wallets
 
 Cons:  
-- Users can forget the message.  
-Workaround:
+- Users can forget to paste the message.  
+
+Workaround:  
 - We can hardcode your exchange address in the wallet, so they can't send to you without a message
 - You can send back the empty messages funds after some time, run some garbage collector.
 
@@ -108,20 +110,77 @@ Workaround:
 
 ## Withdrawals
 
-WIP
+Depending on the exchange flow, you can have a spending script assemble, sign and send the tx to the node (via DB or tcp socket) or (safer) assemble an unsigned transaction, have a secure node just sign it, and let anyone send it to the network.
+
+> See send_nogui below
+
+## Bismuth TXIDs
+
+TXIDs are the first 56 chars of the transaction signature (a base64 encoded buffer).  
+You can then have a TXID before you really *send* the transaction to the network.
+
+See https://github.com/hclivess/Bismuth/blob/master/check_tx.py
+A Demo script that takes a transaction id as input, and sends back a json with its status.
+Comes with a doc https://github.com/hclivess/Bismuth/blob/master/check_tx.md
 
 # Code examples
 
+## commands.py
+
+https://github.com/hclivess/Bismuth/blob/master/commands.py
+
+Basic console client to interact with a node.  
+You can use the same commands via the native Bismuth API https://github.com/EggPool/BismuthAPI
+
+ex:
+
+- `python3 commands.py stop`  
+  clean stops the node, avoids breaking the db
+- `python3 commands.py balancegetjson 9ba0f8ca03439a8b4222b256a5f56f4f563f6d83755f525992fa5daf`  
+  returns the detailled balance of that address, as json dict:  
+ `{"balance": "102.29444000", "credit": "105.99643000", "debit": "102.29444000", "fees": "102.29444000", "rewards": "102.29444000", "balance_no_mempool": "102.29444000"}`  
+
+
+## send_nogui.py
+
+Command line script to assemble, sign, send a transaction.
+Can be used as base for automated payment scripts.  
+Does not send anything sensitive to the node.
+
+https://github.com/hclivess/Bismuth/blob/master/send_nogui.py
+
+This script can be split into several functional parts
+
+- connects to local mempool db to check for un-mined tx
+- connects to local ledger to check for balance
+- calculates fees 
+- assemble transaction structure
+- signs transaction
+- sends a "mpinsert" message via tcp socket to the local node.
+- prints the node answer.
+
+The first steps may be avoided: You can just ignore the local db checks: the local node itself will answer with the matching error message if you spent too much because of a mempool tx.
+
+The critical thing to keep is the very strict format of the transaction to be signed, and signed.  
+Like, timestamp as .2f string , str(transaction) with transaction a tuple, not a list...  
+Since the nodes will re-assemble the tx to check the sig, any meaningless char that would change will break.
+
+> We can provide variants or parts of this script suited to your precise use case, just ask.
+
+
 ## Trigger an event on a specific transaction
 
+Bismuth plugins can be used to trigger an event (like http hook or anything) as soon as a block is digested by the node.  
 See that exemple plugin for triggering an event on a specific transaction:
 https://github.com/bismuthfoundation/BismuthPlugins/blob/master/plugins/201_on_transactions/__init__.py
 
-## apt_getaddresssince
 
-## Direct mempool insert
+## api_getaddresssince
 
-## Native API mempool insert
+This new node command allows to poll a node for the new transactions related to a specific address, since a given checkpoint block, with a number of confirmations.
+
+See demo script for usage: https://github.com/hclivess/Bismuth/blob/master/demo_getaddresssince.py
+
 
 # Bismuth config
 
