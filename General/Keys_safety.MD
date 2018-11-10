@@ -43,6 +43,10 @@ If you already started the node before you copied your old keys:
 
 Since version 4.2.4.1, you can't use "load wallet" with privkey.der and pubkey.der. You need to convert all your addresses to the new format. After this step, you can use "load Wallet" like before.
 
+**Since Version 4.2.7 (Bismuth_installer_nuitka.exe)**
+
+Since version 4.2.7 there where changes to the location of wallet.der, your wallet can be found in C:\Program Files (x86)\Bismuth\files,  these changes had to be made because of Anti Virus issues with the previous " Bismuth_installer.exe".
+
 ## And how do I protect them?
 
 Your privkey is only really needed to spent from your account.  
