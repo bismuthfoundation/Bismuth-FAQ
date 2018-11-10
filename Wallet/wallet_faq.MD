@@ -13,7 +13,7 @@ allowed can be "any" or a list of ips.
 In your bismuth-folder is a file called config.txt. It happens, that it changes on new releases, but sometimes when we develop new code, some things need to be adjusted.
 For the wallet, the main config-line is "light_ip". This is the line, where all ip-addresses are listed, your wallet tries to connect to.
 It looks like this:
-- *light_ip=127.0.0.1,bismuth.online:8150,bismuth.live:8150,bismuth.live,66.70.181.150,heatnodes.org*
+- *light_ip=127.0.0.1,bismuth.live:8150,wallet.bismuth.online:8150,wallet1.bismuth.online:8150,wallet.bismuthplatform.de:8150*
 
 127.0.0.1 is used, if you are running a node locally (you started node.exe or node.py).
 
