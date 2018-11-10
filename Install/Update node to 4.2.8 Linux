@@ -1,0 +1,49 @@
+## Upgrade Bismuth Node to 4.2.8
+(command line)
+
+1. Fetch and extract the latest node code:
+
+```
+cd 
+wget https://github.com/hclivess/Bismuth/archive/4.2.8.tar.gz
+tar -zxvf 4.2.8.tar.gz
+```
+
+This extracts the code to "Bismuth-4.2.8"
+
+2. **Optionally**, make a backup:
+
+```
+mkdir Bismuth.bak
+cp Bismuth/*.py Bismuth.bak
+cp Bismuth/*.txt Bismuth.bak
+cp Bismuth/*.der Bismuth.bak
+```
+
+3. Update the node code  
+
+`cp Bismuth-4.2.8/*.py Bismuth`
+
+4. Double check your config.txt
+
+`nano Bismuth/config.txt`
+
+The 3 important things to check are:
+
+Desktop Version
+```
+version_allow=mainnet0019,mainnet0020,mainnet0021
+terminal_output=False
+quicksync=False
+```
+
+Server Version
+```
+version_allow=mainnet0019,mainnet0020,mainnet0021
+terminal_output=True
+quicksync=False
+```
+
+Change these lines if they say otherwise.
+
+5. Restart node with up to date code
