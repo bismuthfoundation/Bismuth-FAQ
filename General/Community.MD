@@ -16,6 +16,7 @@ WIP
 
 ## Social networks
 
+- https://twitter.com/bismuth_cz
 - https://twitter.com/bismuthdev
 - https://twitter.com/EggPoolNet
 - https://www.facebook.com/cryptobismuth
