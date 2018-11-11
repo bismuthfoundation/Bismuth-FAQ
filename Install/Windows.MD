@@ -6,9 +6,9 @@
 - Read the generics [generics.MD]
 
 ## Install
-- Get the latest release from official Github's repo: https://github.com/hclivess/Bismuth/releases
+- Get the latest release from official Github's repo: [Download](https://github.com/hclivess/Bismuth/releases/download/4.2.8.1/Bismuth_installer_nuitka.exe)
 
-- run the provided installer.exe
+- run the provided Bismuth_installer_nuitka.exe
 
 ## Post install
 - read about the config options [config.MD] and keys safety (need link)
