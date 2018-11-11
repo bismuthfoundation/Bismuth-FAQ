@@ -1,24 +1,54 @@
 # Installing Bismuth_installer_nuitka.exe
 
-If you have previously installed a fresh copy of Bismuth_installer_nuitka.exe (4.2.7) this need not apply to you. If you have previously used Bismuth_installer.exe (4.2.7 and below) and are upgrading to the new Bismuth_installer_nuitka.exe (4.2.8.1) or you have installed Bismuth_installer_nuitka.exe over previous Bismuth_installer.exe then there is a couple of steps for you to do before you install Bismuth_installer_nuitka.exe (4.2.8.1).
+If you installed a fresh copy of Bismuth_installer_nuitka.exe version 4.2.7 just install the latest version over the top of your existing installation after backing up your "wallet.der" file first
 
-## Pre-Uninstall 
-- before you download Bismuth_installer_nuitka.exe (4.2.8.1) make sure you have a backup of your wallet.der (C:\Program Files (x86)\Bismuth) and removed it from the Bismuth folder, at this point you could always remove your static folder to save you having to bootstrap again and save yourself sometime after installing the new version. 
+You should follow these instructions if: 
 
-## Uninstall 
-Before doing this please make sure you have your wallet.der backed up in a different location and or removed your wallet.der from the bismuth folder. Optional is to remove your static folder as well to save you time from bootstrapping. 
-- In bismuth folder (C:\Program Files (x86)\Bismuth) run the unins000.exe and it will remove Bismuth from your computer but will leave the Bismuth folder behind. 
-- Once uninstall has finished make sure there are no files left in the Bismuth folder if there is please delete them.  
+You have previously used Bismuth_installer.exe (4.2.7 and below) and are upgrading to the new Bismuth_installer_nuitka.exe (4.2.8.1) 
 
-## Install
-- download the latest version 4.2.8.1 
-[Download](https://github.com/hclivess/Bismuth/releases/download/4.2.8.1/Bismuth_installer_nuitka.exe)
-- install like you normally would. 
+OR
 
-## Replacing wallet.der and static folder
-When you look in the Bismuth folder now you will see there is a difference from the old Bismuth_installer.exe but don’t worry everything has only moved one folder forward into "files". 
-- wallet.der- C:\Program Files (x86)\Bismuth\files
-- static folder- C:\Program Files (x86)\Bismuth\files
+You have installed Bismuth_installer_nuitka.exe over a previous Bismuth_installer.exe installation. 
 
-Once you have replaced them in to "files" folder you can run node.exe and or wallet.exe as normal.
-If you do have any issues or problems, please do not hesitate to contact us via our support channel in discord
+## Instructions
+
+### Pre-Uninstall
+
+1. Backup your "wallet.der" file
+2. Rename your "wallet.der" file to "wallet.der.old"
+
+Hint: "wallet.der" can be found in the folder "C:\Program Files (x86)\Bismuth"
+
+### Uninstall
+
+CAUTION: DO NOT GO ANY FURTHER IF YOU DO NOT HAVE A COPY OF YOUR "wallet.der" FILE SAVED SOMEWHERE ELSE
+
+1. Remove Bismuth from your computer using add / remove programs of running "unins000.exe" in the folder "C:\Program Files (x86)\Bismuth"
+2. Rename the folder "C:\Program Files (x86)\Bismuth" to "C:\Program Files (x86)\Bismuth.old"
+
+Hint: The old folders will be cleaned up later
+
+### Install
+
+1. Download the latest version 4.2.8.1 [Download](https://github.com/hclivess/Bismuth/releases/download/4.2.8.1/Bismuth_installer_nuitka.exe)
+2. Install Bismuth by running "Bismuth_installer_nuitka.exe
+
+### Replacing wallet.der and static folder
+
+1. Copy your backed up "wallet.der" file into the folder "C:\Program Files (x86)\Bismuth\files"
+2. Go to the folder "C:\Program Files (x86)\Bismuth.old" and right click on the folder "static" and click "copy" in the menu
+3. Go to the folder "C:\Program Files (x86)\Bismuth\files", right click and click "paste" in the menu
+4. Click "Yes" if you are asked to merge or overwrite existing files
+
+### Run the progams
+
+Run your node and / or wallet as normal and check that all is working as before.
+
+### Clean Up
+
+CAUTION: DO NOT GO ANY FURTHER IF YOUR NODE OR WALLET IS NOT WORKING OR IF YOU DO NOT HAVE A BACKUP OF YOUR "wallet.der" FILE
+
+1. Go to the folder "C:\Program Files (x86)\"
+2. Deleted the folder "Bismuth.old"
+
+Hint: If you do have any issues or problems, please do not hesitate to contact us via our support channel in discord
