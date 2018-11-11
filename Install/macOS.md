@@ -33,16 +33,16 @@ $ brew install wget
 ```
 
 ## Download and Install the wallet
-Copy the latest **_Source code (tar.gz)_** URL from [https://github.com/hclivess/Bismuth/releases](https://github.com/hclivess/Bismuth/releases) (currently `4.2.6.2.tar.gz`) and paste it after the `wget` command as shown below:
+Copy the latest **_Source code (tar.gz)_** URL from [https://github.com/hclivess/Bismuth/releases](https://github.com/hclivess/Bismuth/releases) (currently `4.2.8.1.tar.gz`) and paste it after the `wget` command as shown below:
 ```shell
 $ cd     # go to Home folder. Use another path here if you don't want the wallet in your Home
-$ wget https://github.com/hclivess/Bismuth/archive/4.2.6.2.tar.gz
+$ wget https://github.com/hclivess/Bismuth/archive/4.2.8.1.tar.gz
 ```
 
 Then:
 ```shell
-$ tar -zxvf 4.2.6.2.tar.gz          # Extract the archive
-$ mv Bismuth-4.2.6.2 Bismuth        # Rename "Bismuth-4.2.6.2" folder to "Bismuth"
+$ tar -zxvf 4.2.8.1.tar.gz          # Extract the archive
+$ mv Bismuth-4.2.8.1 Bismuth        # Rename "Bismuth-4.2.8.1" folder to "Bismuth"
 $ cd Bismuth                        # Enter "Bismuth" folder
 $ pip3 install -r requirements.txt  # Install wallet dependencies
 ```
