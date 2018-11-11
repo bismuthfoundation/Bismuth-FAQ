@@ -74,7 +74,7 @@ Told ya, bismuth ain't btc.
 
 To encrypt you wallet.der, open wallet.exe or wallet.py and click on "send" tab and you will see "encrypt" click on that and enter a new password and thats will be your wallet encrypted.
 
-**if you back up your wallet.der before you encrypt your wallet.der please note your back-up will not have a password on it, to be sure your wallet.der back-up has a password on it back it up after your have encrypted**
+**if you back up your wallet.der before you encrypt your wallet.der please note your back-up will not have a password on it, to be sure your wallet.der back-up has a password on it,  back it up after your have encrypted**
 
 ## Paper wallet?
 
