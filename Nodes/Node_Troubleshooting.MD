@@ -17,8 +17,8 @@ Config.txt file:
 If block height does not move, and you are behind (check http://bismuth.online for a live reference)
 
 - close node
-- delete peers.txt, and replace by this file (official peers.txt from 4.2.8)
-https://github.com/hclivess/Bismuth/raw/4.2.8/peers.txt  (note: update to more recent file)
+- open peers.txt, and replace the IP's with this peers.txt list [peers.txt](https://github.com/hclivess/Bismuth/raw/4.2.8.1/peers.txt) (official peers.txt from 4.2.8.1) and save file.
+
 - relaunch node
 
 ## Innocuous log messages
