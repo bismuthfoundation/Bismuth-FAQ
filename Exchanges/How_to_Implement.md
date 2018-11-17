@@ -11,7 +11,7 @@ BIS needs python 3.6+ and a few dependencies. It comes with classic requirements
 - its chain data is several sqlite db in it's static subdirectory
 - it can use an on disk mempool.db in its directory
 
-> Make sure your system support utf-8 locales or you'll likely run into issues.
+> **Make sure your system supports utf-8 locales** or you'll likely run into issues.
 
 ## BIS is no BTC clone
 
