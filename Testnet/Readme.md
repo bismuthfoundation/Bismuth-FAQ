@@ -64,4 +64,41 @@ To go back to the screen mode, type: ```screen -r node```
 
 If you need some testnet BIS for your own dApp development, ask in the #testnet channel on discord. Alternatively, you can setup your own (cpu) miner and mine your own testnet BIS.
 
-TODO: Miner setup doc coming soon.
+To cpu mine on testnet, you first need to run a pool. The open source optipoolware.py is recommended.   
+```
+git clone https://github.com/maccaspacca/Optipoolware.git
+```
+Edit the file pool.txt and define:   
+```
+mine_diff=50
+min_payout=1000
+```
+Copy the following files into the ~/Bismuth folder:   
+```
+optipoolware.py
+pool.txt
+```
+The pool can be started with:   
+```
+cd ~/Bismuth
+screen -mS pool python3 optipoolware.py
+```
+
+Next, edit the file optihash/miner.txt:   
+```
+mining_threads=1
+```
+
+Copy the following files into the ~/Bismuth folder (at the ~/Bismuth level, not in a new sub-directory "optihash"):   
+```
+optihash/optihash.py
+optihash/miner.txt
+```
+
+The miner can be started with:   
+```
+cd ~/Bismuth
+screen -mS miner python3 optihash.py
+```
+
+When a new block is mined by your cpu miner, the testnet reward is paid to the account shown in the "address" field of the file wallet.der.
