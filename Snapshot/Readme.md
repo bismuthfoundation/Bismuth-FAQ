@@ -27,7 +27,7 @@ All blocks in the local ledger are valid
 All diffs in the local ledger are valid
 ```
 
-After this the script ends, and node.py can be started, for example with:   
+After this the script ends, node.py can be started, for example with:   
 ```screen -mS node python3 node.py```
 
 If the downloaded snapshot ledger is accepted, the output from node.py should be:   
