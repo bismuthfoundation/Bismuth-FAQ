@@ -6,7 +6,7 @@ Quick guide on how to deposit Bismuth coins on qTrade.io exchange.
 
 ## Account setup
 
-First of all you’ll need to create an account to [qTrade.io](https://qtrade.io), this is an easy step so I will skip it. Second it is highly recommended for 
+First of all you’ll need to create an account on [qTrade.io](https://qtrade.io), this is an easy step so I will skip it. Second it is highly recommended for 
 your account security to activate 2FA, so go for it. This should be also easy enough for you to set as it is a straight forward operation. 
 Just click on your account email(top right) **TWO FACTOR AUTH** -> **Enable** -> Scan the QR code with your mobile app and put the number from the
 app in the **Code** field -> Hit **ENROLL**. That’s it!
