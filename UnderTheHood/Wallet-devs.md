@@ -22,7 +22,7 @@ You will need to test it thoroughly and ensure data sent is in the exact format 
 
 > Test vectors will be provided
 
-## API Reference
+## API Reference
 
 There's a load of Bismuth APIs in different languages at https://github.com/EggPool/BismuthAPI with examples
 
