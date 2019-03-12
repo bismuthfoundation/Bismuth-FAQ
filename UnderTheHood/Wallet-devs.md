@@ -52,18 +52,17 @@ public_key_hashed = base64.b64encode(public_key_readable.encode('utf-8'))
 
 verifier = PKCS1_v1_5.new(key) #perhaps verifier should use public key? verifier = RSA.importKey(base64.b64decode(db_public_key_hashed))
 if verifier.verify(h, signature):
-    tx_submit = (str (timestamp), str (address), str (recipient_input), '%.8f' % float (amount_input), str (signature_enc.decode ("utf-8")), str (public_key_hashed.decode("utf-8")), str (operation_input), str (openfield_input))
+    tx_submit = (str(timestamp), str(address), str(recipient_input), '%.8f' % float(amount_input), str(signature_enc.decode ("utf-8")), str(public_key_hashed.decode("utf-8")), str(operation_input), str(openfield_input))
     
 # --------- CONNECT TO NODE -------------
 s = socks.socksocket()
 s.settimeout(10)
-#s.connect(("bismuth.live", 5658))
 s.connect(("127.0.0.1", 5658))
 
 # ------------ SEND TRANSACTION -----------
-connections.send (s, "mpinsert", 10)
-connections.send (s, tx_submit, 10)
-reply = connections.receive (s, 10)
+connections.send(s, "mpinsert", 10)
+connections.send(s, tx_submit, 10)
+reply = connections.receive(s, 10)
 print ("Client: {}".format (reply))
 
 # --------- GET TRANSACTION LIST INVOLVING ADDRESS ----------
@@ -76,5 +75,5 @@ for transaction in tx_list:
     address = transaction[2]
     recipient = transaction[3]
     amount = transaction[4]
-...    
+
 ```
