@@ -2,7 +2,7 @@
 
 WIP, thanks to @bizzzy
 
-## Summary in English
+## Summary in English
 
 For key gen:
 - Use RSA to generate private/public keys (be careful - Many pitfalls).
@@ -29,7 +29,7 @@ There's a load of Bismuth APIs in different languages at https://github.com/EggP
 Javascript current reference for signing transactions: https://github.com/gabidi/bismuth-js-crypto/blob/master/src/sign.js  
 Do **not** use https://github.com/gabidi/bismuth-js-crypto/blob/master/src/generate.js for generation
 
-## Minimal working code
+## Minimal working code
 
 ```
 # ------- KEY GEN ---------
