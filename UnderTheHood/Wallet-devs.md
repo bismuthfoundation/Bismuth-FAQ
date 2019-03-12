@@ -14,7 +14,7 @@ For transaction signing:
 - sign the hashed transaction using PKCS1_v1_5 & private key
 - base64 encode the signature & public key
 - verify it has been signed correctly
-- send tuple to mpinsert with added base64 encoded signature & public key fields : (timestamp, address, recipient, amount, signature_base64encoded, public_key_base64encoded, input, openfield)
+- send tuple to mpinsert with added base64 encoded signature & public key fields : (timestamp, address, recipient, amount, signature_base64encoded, public_key_base64encoded, operation, openfield)
 
 The node that you send the transaction to base64 decodes the public key & signature and uses them to verify that the transaction has been signed by the matching private key, then puts it into the mempool to awaiting mining/inclusion on the blockchain.
 
