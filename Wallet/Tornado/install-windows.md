@@ -8,7 +8,7 @@ Get the latest stable release from https://github.com/bismuthfoundation/TornadoW
 
 Download the `TornadoBismuthWallet-0.1.0-Installer.exe` and run it.  
 
-After successful installation, go to the folder where you installed the wallet (standard path should be C:\Program Files (x86)\TornadoBismuthWallet) and start it with the **TornadoBismuthWallet.exe**.  
+After successful installation, go to the folder where you installed the wallet (standard path should be `C:\Program Files (x86)\TornadoBismuthWallet`) and start it with the **TornadoBismuthWallet.exe**.  
 You can right-click the file and create a shortcut on your desktop or taksbar.
 
 
@@ -70,7 +70,7 @@ You can also start the wallet with some additional options:
 
 ![Oups, here should be a CLI-Screenshot](graphics/cli_verbose.png)
 
-Use --verbose if you want to see more CLI output, for example if something shows a weird behaviour, so you can add the message to a bug report.
+Use `--verbose` if you want to see more CLI output, for example if something shows a weird behaviour, so you can add the message to a bug report.
 
 
 ![Oups, here should be a CLI-Screenshot](graphics/cli_lang.png)
@@ -79,5 +79,5 @@ If you do not want to start the wallet with your systems standard language, you 
 This will start the wallet with the selected language. It will start with english, if you enter an unknown abbreviation.  
 If you used that switch to force a language, you will not be able to change the language from the browser.
 
-It is also possible to start the wallet with --debug to get lots of information on the CLI.  
+It is also possible to start the wallet with `--debug` to get lots of information on the CLI.  
 This is not recommended for normal users, but it also does no harm to the function itself.
