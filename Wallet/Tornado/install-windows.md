@@ -6,7 +6,7 @@ Several options are available:
 
 Get the latest stable release from https://github.com/bismuthfoundation/TornadoWallet/releases
 
-Download the "TornadoBismuthWallet-0.1.0-Installer.exe" and run it.  
+Download the `TornadoBismuthWallet-0.1.0-Installer.exe` and run it.  
 
 After successful installation, go to the folder where you installed the wallet (standard path should be C:\Program Files (x86)\TornadoBismuthWallet) and start it with the **TornadoBismuthWallet.exe**.  
 You can right-click the file and create a shortcut on your desktop or taksbar.
@@ -24,7 +24,7 @@ Extract to a directory of your choice and run it from there.  It will install no
 
 ### Older Win versions
 The default install procedure is tested under Win10.  
-Older win versions may show problem like: "*program can't start because api-ms-win-crt-runtime-l1-1-0.dll is missing*".  
+Older win versions may show problem like: `program can't start because api-ms-win-crt-runtime-l1-1-0.dll is missing`.  
 Install the missing DLL files from microsoft: https://www.microsoft.com/en-US/download/details.aspx?id=48145
 
 ### Anti Virus warnings?
@@ -75,7 +75,9 @@ Use --verbose if you want to see more CLI output, for example if something shows
 
 ![Oups, here should be a CLI-Screenshot](graphics/cli_lang.png)
 
-If you do not want to start the wallet with your systems standard language, you can add --lang="language code". This will start the wallet with the selected language. It will start with english, if you enter an unknown abbreviation. It you used thhat switch to force a language, you will not be able to switch the language from the browser.
+If you do not want to start the wallet with your systems standard language, you can add `--lang=language_code`, for instance `--lang=de`for German.  
+This will start the wallet with the selected language. It will start with english, if you enter an unknown abbreviation.  
+If you used that switch to force a language, you will not be able to change the language from the browser.
 
 It is also possible to start the wallet with --debug to get lots of information on the CLI.  
 This is not recommended for normal users, but it also does no harm to the function itself.
