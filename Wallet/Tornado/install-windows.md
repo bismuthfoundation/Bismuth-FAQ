@@ -2,7 +2,7 @@
 
 Several options are available:
 
-## Option 1 - Install with Win-Installer (recommended):
+## Option 1 - Install with Win-Installer (recommended)
 
 Get the latest stable release from https://github.com/bismuthfoundation/TornadoWallet/releases
 
@@ -33,7 +33,7 @@ As you can see on the release page, we ran the source code and source code with 
 Because the wallet opens connections to the outside worlds, acts as a local webserver, or comes with an autoinstaller, some rare paranoid apps do consider it malicious. It is not, and you can run it from source if you want to.
 
 
-## Option 3 - Install the wallet from source:
+## Option 3 - Install the wallet from source
 Under windows you can also run the Tornado wallet from the source-files.  
 This is *not* the recommended way for new users.
 You need python installed (preferably 3.7, minimum is 3.6) and then do:
