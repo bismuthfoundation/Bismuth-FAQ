@@ -9,7 +9,7 @@ Get the latest stable release from https://github.com/bismuthfoundation/TornadoW
 Download the `TornadoBismuthWallet-0.1.0-Installer.exe` and run it.  
 
 After successful installation, go to the folder where you installed the wallet (standard path should be `C:\Program Files (x86)\TornadoBismuthWallet`) and start it with the **TornadoBismuthWallet.exe**.  
-You can right-click the file and create a shortcut on your desktop or taksbar.
+You can right-click the file and create a shortcut on your desktop or taskbar.
 
 
 ## Option 2 - Install the portable version
