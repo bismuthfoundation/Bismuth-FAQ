@@ -13,7 +13,7 @@ After successful installation, go to the folder where you installed the wallet (
 If you doubleclicked the file, a terminal gets opened -  you can ignore **BUT NOT CLOSE it!** There you see some Info for debugging and statistics and what the wallet does under the hood.
 It also opens a browser window: http://127.0.0.1:8888/wallet/info and here you go with your local language (if available, otherwise it should be english).
 
-![Oups, where is the Screenshot?](/graphics/tornado.png)
+![Oups, where is the Screenshot?](graphics/tornado.png)
 
 ***
 ### Install it from source with pip:
@@ -21,7 +21,7 @@ Under windows you can also run the Tornado wallet from the source-files. You nee
 
 clone it with a git tool or download a zip-file from (https://github.com/bismuthfoundation/TornadoWallet) , click the green "clone or download" - as zip. Extract it on your local pc, open a cmdline-window and navigate to the folder c:\your\selected\path\TornadoWallet and then type: 
 
-`pip3 install -r requirements.txt`
+`python -m pip install -r requirements.txt`
 
 if you have not used a Bismuth-Wallet before, you need also pycryptodome:
 See https://pycryptodome.readthedocs.io/en/latest/src/installation.html#windows-from-sources-python-3-5-and-newer for help.
@@ -31,7 +31,7 @@ if everything is installed, change dir to wallet and there start the TornadoWall
 
 `python wallet.py`
 
-![Oups, here should be a CLI-Screenshot](/graphics/cli.png)
+![Oups, here should be a CLI-Screenshot](graphics/cli.png)
 
 ***
 
@@ -39,13 +39,13 @@ if everything is installed, change dir to wallet and there start the TornadoWall
 
 You can also start the wallet with some additional options:
 
-![Oups, here should be a CLI-Screenshot](/graphics/cli_verbose.png)
+![Oups, here should be a CLI-Screenshot](graphics/cli_verbose.png)
 
 Use --verbose if you want to see more CLI output, for example if something shows a weird behaviour, so you can add the message to a bug report.
 
 
 
-![Oups, here should be a CLI-Screenshot](/graphics/cli_lang.png)
+![Oups, here should be a CLI-Screenshot](graphics/cli_lang.png)
 
 If you do not want to start the wallet with your systems standard language, you can add --lang="language abbreviation". This will start the wallet with the selected language. It will start with english, if you enter an unknown abbreviation. You can still switch the language after the wallet has started.
 
