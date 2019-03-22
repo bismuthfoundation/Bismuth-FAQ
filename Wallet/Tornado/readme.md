@@ -9,7 +9,7 @@ Quick link to release and installers: https://github.com/bismuthfoundation/Torna
 
 ### Windows
 
-install-windows.md
+https://github.com/bismuthfoundation/Bismuth-FAQ/blob/master/Wallet/Tornado/install-windows.md
 
 ### Mac Os
 
