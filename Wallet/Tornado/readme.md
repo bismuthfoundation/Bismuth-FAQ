@@ -21,4 +21,9 @@ install-linux.md
 
 ## Wallet files, keys, safety
 
+### Wallet file location, backup
+
+https://github.com/bismuthfoundation/Bismuth-FAQ/blob/master/Wallet/Tornado/backup.md
+
+WIP
 Wallet safety model wallet-safety.md
