@@ -19,6 +19,10 @@ install-mac.md
 
 install-linux.md
 
+## Wallet Usage
+
+https://github.com/bismuthfoundation/Bismuth-FAQ/blob/master/Wallet/Tornado/quickstart.md
+
 ## Wallet files, keys, safety
 
 ### Wallet file location, backup
