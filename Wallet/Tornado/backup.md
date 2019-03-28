@@ -13,6 +13,11 @@ For instance the windows-path is:
 c:\users\"username"\bismuth-private
 ```
 
+The Mac path is:
+```
+/Users/"username"/bismuth-private
+```
+
 If you start the wallet for the first time or without a wallet.json you should see this screen:
 
 ![Oups, where is the Screenshot?](graphics/new_start.png)
