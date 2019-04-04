@@ -16,6 +16,8 @@ In fact, starting the "wallet" means, you are starting a tornado based server, t
 python3 wallet.py --port=1234
 ```
 
+If you already have a service running on port 8888, this is the option to use, to solve the conflict.
+
 Maybe more interesting is the fact, that you are able to connect to the tornado server also from other machines in your network. Let us assume, the machine running the tornado server has 192.168.1.2 as ip-address
 
 ```
