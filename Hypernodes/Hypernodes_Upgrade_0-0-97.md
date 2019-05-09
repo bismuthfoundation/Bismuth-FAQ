@@ -58,7 +58,7 @@ cp Bismuth/*.der Bismuth.bak
 
 3. Update the node code  
 
-`cp Bismuth-4.2.7/*.py Bismuth` . 
+`cp Bismuth-4.2.7/*.py Bismuth`  
 `cp Bismuth-4.2.7/*.requirements.txt Bismuth`
 
 4. Double check your config.txt
