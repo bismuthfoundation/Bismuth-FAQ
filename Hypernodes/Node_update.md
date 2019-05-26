@@ -4,9 +4,11 @@ At block height 1,200,000 there will be a hardfork in the Bismuth PoW blockchain
 
 To ease this process, an update script written in Python has been written. To run the update script, the following commands can be run in a terminal window:
 
-```rm hn_node_update.py
+```
+rm hn_node_update.py
 wget https://raw.githubusercontent.com/bismuthfoundation/util/master/hn_node_update.py
-python3 hn_node_update.py```
+python3 hn_node_update.py
+```
 
 The update script can be run from any directory on your node. The script performs the following steps automatically:
 
