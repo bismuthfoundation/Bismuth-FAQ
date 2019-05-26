@@ -2,7 +2,7 @@
 
 At block height 1,200,000 there will be a hardfork in the Bismuth PoW blockchain. This means that all hypernodes need to update their PoW node to the latest version. The script can also be used whenever you want to update your hypernode in the future to the latest core node PoW version, independent of the hardfork at block height 1,200,000.
 
-To ease this process, an update script written in Python has been written. To run the update script, the following commands can be run in a terminal window:
+To ease this process, an update script written in Python is made available. To run the update script, the following commands can be run in a terminal window:
 
 ```
 rm hn_node_update.py
