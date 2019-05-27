@@ -1,3 +1,10 @@
+# Auto install script
+
+**If installing for a Hypernode**, please use the auto install script that does both
+
+https://github.com/bismuthfoundation/Bismuth-FAQ/blob/master/Hypernodes/00-Auto-Install-Script.md
+
+
 # Installation log on an ubuntu server 18.04 Machine
 
 Add `sudo` in front of the apt install commands if your main user is not root.
@@ -19,10 +26,10 @@ These are all the commands I had to type to install a node on a brand new stock 
 
 ```
 cd
-wget https://github.com/hclivess/Bismuth/archive/4.2.8.1.tar.gz
-tar -zxvf 4.2.8.1.tar.gz
+wget https://github.com/bismuthfoundation/Bismuth/archive/v4.3.0.0-beta.6.tar.gz
+tar -zxvf v4.3.0.0-beta.6.tar.gz
 ```
-rename to Bismuth: `mv Bismuth-4.2.8.1 Bismuth`
+rename to Bismuth: `mv v4.3.0.0-beta.6 Bismuth`
 
 ## Install node dependences
 
@@ -35,7 +42,7 @@ Just do `pip3 install setuptools` and do the pip3 install -r ... again
 
 ## Run in a screen
 
-- `screen -S BIS_NODE`
+- `screen -S node`
 - `python3 node.py`
 
 Shows: Database needs upgrading, bootstrapping...  
@@ -50,6 +57,6 @@ Then begins to test chain coherence, moves to ram, and syncs.
 
 ## Screen management
 
-- ctrl-a d to detach and log out
-- screen -x BIS_NODE to re-attach to this screen and check node output.
-- ctrl-a d to detach again
+- `ctrl-a d` to detach and log out
+- `screen -x node` to re-attach to this screen and check node output.
+- `ctrl-a d` to detach again
