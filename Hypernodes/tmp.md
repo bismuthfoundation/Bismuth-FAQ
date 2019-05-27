@@ -1,3 +1,11 @@
+# THIS PAGE IS DEPRECATED
+
+Please use the auto install script for new installs
+
+https://github.com/bismuthfoundation/Bismuth-FAQ/blob/master/Hypernodes/00-Auto-Install-Script.md
+
+
+
 # Temp Instructions
 
 > **Important**: These instructions refered to the first launched version of the hypernodes.  They are **no more up to date**.  
