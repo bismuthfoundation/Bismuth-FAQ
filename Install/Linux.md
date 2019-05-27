@@ -3,6 +3,11 @@
 This guide is made for Ubuntu. Little should change for other distros.  
 The box I used was an Ubuntu 16.04
 
+# Auto install script
+
+**If installing for a Hypernode**, please use the auto install script that does both
+
+https://github.com/bismuthfoundation/Bismuth-FAQ/blob/master/Hypernodes/00-Auto-Install-Script.md
 
 ## Pre-requisites
 
