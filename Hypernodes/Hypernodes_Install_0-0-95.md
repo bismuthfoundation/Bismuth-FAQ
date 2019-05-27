@@ -1,3 +1,10 @@
+# THIS PAGE IS DEPRECATED
+
+Please use the auto install script for new installs
+
+https://github.com/bismuthfoundation/Bismuth-FAQ/blob/master/Hypernodes/00-Auto-Install-Script.md
+
+
 # Install Instructions, Hypernode v0.0.97
 
 0.0.95 is the pre-release, pushed on 2018-09-11
