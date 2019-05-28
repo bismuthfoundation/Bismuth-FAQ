@@ -35,3 +35,7 @@ Never close or interrupt, `ctrl-a d` will detach you from the live logs.
 `cd /root/hypernode/main`  
 `python3 hn_client.py --action=status --ip=1.2.3.4`  
 > Replacing 1.2.3.4 by the real ip of your vps.
+
+# Register your Hypernode
+
+Please refer to https://github.com/bismuthfoundation/Bismuth-FAQ/blob/master/Hypernodes/01-Hypernode_Registration.md
