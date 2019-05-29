@@ -29,7 +29,7 @@ On ubuntu, use
 * `sudo ufw allow 5658` to open the node port
 (do both)
 
-Please also store both reg and unreg bis url for future use (like raising your collateral)
+> **Important:** Please also store both reg and unreg bis url for future use (like raising your collateral)
 
 ## Wait
 
@@ -63,3 +63,21 @@ Then from the wallet, you can load any renamed wallet.der
 wallet > load wallet and then choose whichever one you want.  
 Tornado wallet has integrated multiaddress management.
 
+## I want to raise or lower my collateral, do have have something to do?
+Yes. Unreg (use the bisurl you stored when first registering), wait for the tx to be mined, then re-reg again (same tx as the first time) and you're done.
+
+## How to check my registration/unregistration is ok?
+Use the reg_feed util:  
+from your hypernode directory `cd ~/hypernode/main`
+issue a `python3 hn_reg_feed.py --force --ip=1.2.3.4`  command.  
+This will return the reg/unreg events for that ip.  
+
+For instance, a HN that got 10k will look like
+```
+python3 hn_reg_feed.py --force --ip=176.31.197.133
+Info: Row 1183950: 6cc70ef88a1aa0209ebdc0d3cbd2a371471cb7fd5b57e28ee46af113, hypernode:register, 176.31.197.133:6969:BA6jw1eByodLCHah2u43v9tQNwesHGHqNS,source=6cc70ef88a1aa0209ebdc0d3cbd2a371471cb7fd5b57e28ee46af113,reward=25125e9bb305fafd51ceb2858d355f77da99550b933ec0923cd156ff
+Info: Ok, Weight=1
+```
+> Row 1183950 ....    hypernode:register .....   Info: Ok, Weight=1
+
+if last ok event is the proper registration  (right  ip, pos address, collateral, hypernode:register) then all you can do is wait.
