@@ -27,6 +27,10 @@ If anything goes wrong during the node update, please leave your comments in the
 
 These will be amended with info from the Discord.
 
+## First run, the command "rm hn_node_update.py" says "rm: cannot remove 'hn_node_update.py': No such file or directory"
+
+That's ok. This is to deleted potential older file, this means there was no previous update script, this is cool. just go on.
+
 ## Update script says "More than one commands.py or cron5.py found, exiting."
 For instance, it says that and 
 ```
@@ -35,7 +39,7 @@ For instance, it says that and
 ```
 This means you have 2 node installs, '/root/Bismuth' and '/root/Bismuth-4.2.7' and a single hypernode install at /root/hypernode.  
 Regular install as done by the auto install script, and recommended dir architecture, is /root/Bismuth.  
-Delete the extra node installs (make sur you backup what could be needed).  
+Delete the extra node installs (make sure you backup what could be needed).  
 Here, for instance: `rm -rd /root/Bismuth-4.2.7`  
 Then restart the update script.
 
@@ -50,3 +54,14 @@ cd ~/Bismuth
 rm config.txt
 wget https://raw.githubusercontent.com/bismuthfoundation/Bismuth/v4.3.0.0-beta.6/config.txt
 ```
+
+## After the update looks like my hypernode is started but I don't see the Node screen. Do I have to do something to restart the node? Or at least to get the node on it's own screen?
+
+If `screen -ls` does not show a "node" screen, then the node is not running.  
+Make sure, try running it by hand: maybe something is preventing him from running, then you'll know
+```
+cd ~/Bismuth
+screen -S node
+python3 node.py
+```
+Will create a new "node" screen, do this only once.
