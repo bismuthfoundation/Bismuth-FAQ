@@ -65,3 +65,11 @@ screen -S node
 python3 node.py
 ```
 Will create a new "node" screen, do this only once.
+
+## I have several HN installs or several HN wallets, how do I know which one is the right one?
+
+Your pos (hn) wallet should be the one your registered. If you change HN address, you'll have to unregister the old one, wait a few hours, the re-register the new one. Keep the same address to avoid the pain.  
+You can see the content of a pos wallet via the "cat" command.  
+Default location: `cat ~/hypernode/main/poswallet.json` this is a json file, with "address" field inside.
+
+This is also the file you need to backup if you want to do a full - clean - reinstall from the auto install script.
