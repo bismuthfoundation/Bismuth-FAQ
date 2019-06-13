@@ -23,15 +23,15 @@ It comes with specific features, but things you may be used to rely on are not a
 
 ## The repos
 
-Main node code is at https://github.com/hclivess/Bismuth  
-See https://github.com/hclivess/Bismuth/blob/master/_MOST_USEFUL_FILES.md  for a quickstart of what is what  
+Main node code is at https://github.com/bismuthfoundation/Bismuth
+See https://github.com/bismuthfoundation/Bismuth/blob/master/_MOST_USEFUL_FILES.md  for a quickstart of what is what  
 
 Quick install https://github.com/bismuthfoundation/Bismuth-FAQ/blob/master/Install/Ubuntu_18.04_Install.md  
 and FAQ https://github.com/bismuthfoundation/Bismuth-FAQ/
 
 Most of the companion projects are under the BismuthFoundation organization or EggPool
 
-- Native API Doc https://github.com/EggPool/BismuthAPI
+- Native API Doc https://github.com/bismuthfoundation/BismuthAPI
 - Bismuth plugins https://github.com/bismuthfoundation/BismuthPlugins  
 - Json-RPC Server https://github.com/EggPool/BismuthRPC
 - Console wallet demo https://github.com/bismuthfoundation/Antimony
@@ -55,7 +55,7 @@ You can interact with BIS
 
 ## The API
 
-Native API Doc and code in several languages: https://github.com/EggPool/BismuthAPI  
+Native API Doc and code in several languages: https://github.com/bismuthfoundation/BismuthAPI
 Prefered way to interact with Bismuth nodes. No extra layer, direct feedback.
 
 ## The Json-RPC Server
@@ -121,18 +121,18 @@ Depending on the exchange flow, you can have a spending script assemble, sign an
 TXIDs are the first 56 chars of the transaction signature (a base64 encoded buffer).  
 You can then have a TXID before you really *send* the transaction to the network.
 
-See https://github.com/hclivess/Bismuth/blob/master/check_tx.py
+See https://github.com/bismuthfoundation/Bismuth/blob/master/check_tx.py
 A Demo script that takes a transaction id as input, and sends back a json with its status.
-Comes with a doc https://github.com/hclivess/Bismuth/blob/master/check_tx.md
+Comes with a doc https://github.com/bismuthfoundation/Bismuth/blob/master/check_tx.md
 
 # Code examples
 
 ## commands.py
 
-https://github.com/hclivess/Bismuth/blob/master/commands.py
+https://github.com/bismuthfoundation/Bismuth/blob/master/commands.py
 
 Basic console client to interact with a node.  
-You can use the same commands via the native Bismuth API https://github.com/EggPool/BismuthAPI
+You can use the same commands via the native Bismuth API https://github.com/bismuthfoundation/BismuthAPI
 
 ex:
 
@@ -149,7 +149,7 @@ Command line script to assemble, sign, send a transaction.
 Can be used as base for automated payment scripts.  
 Does not send anything sensitive to the node.
 
-https://github.com/hclivess/Bismuth/blob/master/send_nogui.py
+https://github.com/bismuthfoundation/Bismuth/blob/master/send_nogui.py
 
 This script can be split into several functional parts
 
@@ -181,7 +181,7 @@ https://github.com/bismuthfoundation/BismuthPlugins/blob/master/plugins/201_on_t
 
 This new node command allows to poll a node for the new transactions related to a specific address, since a given checkpoint block, with a number of confirmations.
 
-See demo script for usage: https://github.com/hclivess/Bismuth/blob/master/demo_getaddresssince.py
+See demo script for usage: https://github.com/bismuthfoundation/Bismuth/blob/master/demo_getaddresssince.py
 
 
 # Bismuth config
@@ -201,7 +201,8 @@ Non listed params have to stick to the defaults.
 - "whitelist": Having a few team operated nodes and pool nodes in your whitelit definitely can help stay synced. Ask us.
 - "mempool_allowed" is the list of address to accept txs from, even if the mempool is full.
 - set "terminal_output" to True to get more console feedback
-- set "mempool_ram_conf" to False if you plan to access the mempool db from scripts.
+- set "ram" to False to use disk rather than ram and spare some Memory (default, safer)
+- set "mempool_ram" to False if you plan to access the mempool db from scripts.
 
 # Extra plugin
 
