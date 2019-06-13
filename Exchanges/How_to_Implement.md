@@ -29,6 +29,8 @@ See https://github.com/bismuthfoundation/Bismuth/blob/master/_MOST_USEFUL_FILES.
 Quick install https://github.com/bismuthfoundation/Bismuth-FAQ/blob/master/Install/Ubuntu_18.04_Install.md  
 and FAQ https://github.com/bismuthfoundation/Bismuth-FAQ/
 
+**New:** An auto install script, node alone, is provided: https://github.com/bismuthfoundation/Bismuth/tree/master/auto-install
+
 Most of the companion projects are under the BismuthFoundation organization or EggPool
 
 - Native API Doc https://github.com/bismuthfoundation/BismuthAPI
