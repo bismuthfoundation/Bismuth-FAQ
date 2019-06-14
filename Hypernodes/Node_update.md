@@ -52,7 +52,7 @@ Get the current config file:
 ```
 cd ~/Bismuth
 rm config.txt
-wget https://raw.githubusercontent.com/bismuthfoundation/Bismuth/v4.3.0.0-beta.6/config.txt
+wget https://raw.githubusercontent.com/bismuthfoundation/Bismuth/v4.3.0.1-beta.1/config.txt
 ```
 
 ## After the update looks like my hypernode is started but I don't see the Node screen. Do I have to do something to restart the node? Or at least to get the node on it's own screen?
