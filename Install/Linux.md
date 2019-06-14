@@ -159,7 +159,7 @@ The defaults are safe.
 
 ## Config file
 
-TODO - dedicated page
+See https://github.com/bismuthfoundation/Bismuth-FAQ/blob/master/Nodes/Node_config.MD
 
 ## Common errors
 
