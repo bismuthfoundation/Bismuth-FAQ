@@ -50,7 +50,7 @@ It shows the filename, the address it found in the file, encryption state and un
 
 Clicking on "import" adds the address (and the matching keys) to the wallet.json file. So you do not have to import them every time you restart the wallet.
 
-**Note:** The new wallet doesn't support encrypted legacy addresses yet.
+**Note:** The wallet support encrypted legacy addresses since version 0.1.19.
 
 
 ## Dashboard
