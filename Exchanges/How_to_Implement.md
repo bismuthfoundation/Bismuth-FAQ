@@ -28,6 +28,7 @@ See https://github.com/bismuthfoundation/Bismuth/blob/master/_MOST_USEFUL_FILES.
 
 Quick install https://github.com/bismuthfoundation/Bismuth-FAQ/blob/master/Install/Ubuntu_18.04_Install.md  
 and FAQ https://github.com/bismuthfoundation/Bismuth-FAQ/
+**Always use the latest stable release**
 
 **New:** An auto install script, node alone, is provided: https://github.com/bismuthfoundation/Bismuth/tree/master/auto-install
 
@@ -184,6 +185,11 @@ https://github.com/bismuthfoundation/BismuthPlugins/blob/master/plugins/201_on_t
 This new node command allows to poll a node for the new transactions related to a specific address, since a given checkpoint block, with a number of confirmations.
 
 See demo script for usage: https://github.com/bismuthfoundation/Bismuth/blob/master/demo_getaddresssince.py
+
+## Get node status
+
+This demo scripts shows how to query the node and get a json back, will consensus, connectivity, bocks and version info:  
+https://github.com/bismuthfoundation/Bismuth/blob/master/demo_getstatus.py
 
 
 # Bismuth config
