@@ -26,10 +26,10 @@ These are all the commands I had to type to install a node on a brand new stock 
 
 ```
 cd
-wget https://github.com/bismuthfoundation/Bismuth/archive/v4.3.0.0-beta.6.tar.gz
-tar -zxvf v4.3.0.0-beta.6.tar.gz
+wget https://github.com/bismuthfoundation/Bismuth/archive/v4.3.0.1-beta.1.tar.gz
+tar -zxvf v4.3.0.1-beta.1.tar.gz
 ```
-rename to Bismuth: `mv v4.3.0.0-beta.6 Bismuth`
+rename to Bismuth: `mv v4.3.0.1-beta.1 Bismuth`
 
 ## Install node dependences
 
