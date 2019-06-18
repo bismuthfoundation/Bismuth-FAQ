@@ -2,7 +2,7 @@
 
 Quick guide on how to deposit Bismuth coins on graviex.net exchange.
 
-![Bis-qTrade](BismuthqTrade.png "Header")
+![Bis-graviex](Bismuthgraviex.png "Header")
 
 ## Account setup
 
