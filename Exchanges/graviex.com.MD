@@ -38,6 +38,7 @@ You get a message if the transaction was successfully sent to mempool or you get
 Done!
 
 You'll get an email when your deposit arrives. It needs only 6 confirmations, so it's pretty fast.
+![graviex confirmation](deposit-graviex.png)
 
 
 ## Important warnings
