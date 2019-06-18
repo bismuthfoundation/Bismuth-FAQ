@@ -1,6 +1,6 @@
-## How to deposit $BIS on qTrade.io
+## How to deposit $BIS on graviex.net
 
-Quick guide on how to deposit Bismuth coins on qTrade.io exchange.
+Quick guide on how to deposit Bismuth coins on graviex.net exchange.
 
 ![Bis-qTrade](BismuthqTrade.png "Header")
 
