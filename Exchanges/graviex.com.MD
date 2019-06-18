@@ -49,7 +49,7 @@ You'll get an email when your deposit arrives. It needs only 6 confirmations, so
 
 ## Withdraw $BIS 
 
-Withdrawal of the $BIS coins is the same as on any other coin because you don’t need to enter a message since your address is unique.
+Withdrawal of the $BIS coins is the same as on any other coin because you don’t need to enter a message since your address is unique. If you want to withdraw to another exchange, that requires a message, fill that message into the **message-field**.
 
 ## Happy trading!
 
