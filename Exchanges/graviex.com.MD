@@ -18,28 +18,30 @@ Click on "Funds" and then search for Bismuth or type "bis" in the search-field.
 
 Click on **Deposit**.
 
-![graviex message](https://github.com/bismuthfoundation/Bismuth-FAQ/blob/master/Exchanges/graviexDeposit1.png"gravies deposit")
+![graviex message](graviexDeposit1.png)
 
 Now from the Bismuth Deposit page you need to generate a new address. Click on  the symbol right of the empty address-field. If you activated 2FA, you need to enter the actual auth-token from your mobile device.
 
 If it seems, that nothing happened, try **shift+reload** (for example shift+F5). Your new address + the corresponding message should appear.
 
-![graviex message](https://github.com/bismuthfoundation/Bismuth-FAQ/blob/master/Exchanges/graviexDeposit2.png"graviex deposit")
+![graviex message](graviexDeposit2.png)
 
-From your personal wallet go to **Send** tab and fill the **Recipient** field with your exchange address from Point (**1**) put the BIS amount you want 
-to send in the **Amount** field and the **OpenField(data)** from Point (**2**) in the **Data** field of your wallet like in the picture below:
+Open the Tornado wallet ([Download](https://github.com/bismuthfoundation/TornadoWallet/releases)), click on "Send" icon from the dashboard or from the transaction page and fill the **Recipient** field with your exchange address.  
+Enter the message you got from graviex on **Data (message)**. Fill in the amount, you want to send and click **Send BIS**
 
-![qTrade message](WalletSend.png "qTrade deposit")
+![graviex message](tornado_send_graviex.png )
 
-Click **Send Bismuth**, check if everything is OK then hit **Confirm button**. Done!
+You get a message if the transaction was successfully sent to mempool or you get an error-message (most likely, you forgot to enter the message from exchange). If you enter a wrong message, graviex is **not** able to connect your deposit to your account and your BIS is possibly lost, Tornado wallet can't check for wrong messages!
+
+ Done!
 
 ## Withdraw $BIS 
 
-Withdrawal of the $BIS coins is the same as on any other coin because you don’t need a OpenField(data) since your address is unique.
+Withdrawal of the $BIS coins is the same as on any other coin because you don’t need to enter a message since your address is unique.
 
 ## Happy trading!
 
 ***NOTE:***
 
-1) If you have any issues please contact qTrade.io support at [qTrade Support](https://qtradehelp.zendesk.com/hc/en-us/requests/new)
+1) If you have any issues please contact graviex support at [graviex Support](<https://graviex.net/tickets>)
 2) Feel free to join us on Discord [Bismuth Discord](https://discord.gg/4tB3pYJ)
