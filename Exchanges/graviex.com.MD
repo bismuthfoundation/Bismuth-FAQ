@@ -27,13 +27,18 @@ If it seems that nothing happened try **shift+reload** (for example shift+F5). Y
 ![graviex message](graviexDeposit2.png)
 
 Open the Tornado wallet ([Download](https://github.com/bismuthfoundation/TornadoWallet/releases)), click on "Send" icon from the dashboard or from the transaction page and fill the **Recipient** field with your exchange address.  
-Enter the message you got from graviex on **Data (message)**. Fill in the amount, you want to send and click **Send BIS**
+Enter the message you got from graviex on **Data (message)**. Fill in the amount, you want to send and click **Send BIS**  
+
+> Do not add the quotes, just address and message as given by Graviex.
 
 ![graviex message](tornado_send_graviex.png )
 
 You get a message if the transaction was successfully sent to mempool or you get an error-message (most likely, you forgot to enter the message from exchange). If you enter a wrong message, graviex is **not** able to connect your deposit to your account and your BIS is possibly lost, Tornado wallet can't check for wrong messages!
 
 Done!
+
+You'll get an email when your deposit arrives. It needs only 6 confirmations, so it's pretty fast.
+
 
 ## Important warnings
 
