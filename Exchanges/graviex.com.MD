@@ -18,13 +18,13 @@ Click on "Funds" and then search for Bismuth or type "bis" in the search-field.
 
 Click on **Deposit**.
 
-![graviex message](graviexDeposit1.png"gravies deposit")
+![graviex message](https://github.com/bismuthfoundation/Bismuth-FAQ/blob/master/Exchanges/graviexDeposit1.png"gravies deposit")
 
 Now from the Bismuth Deposit page you need to generate a new address. Click on  the symbol right of the empty address-field. If you activated 2FA, you need to enter the actual auth-token from your mobile device.
 
 If it seems, that nothing happened, try **shift+reload** (for example shift+F5). Your new address + the corresponding message should appear.
 
-![graviex message](graviexDeposit2.png"graviex deposit")
+![graviex message](https://github.com/bismuthfoundation/Bismuth-FAQ/blob/master/Exchanges/graviexDeposit2.png"graviex deposit")
 
 From your personal wallet go to **Send** tab and fill the **Recipient** field with your exchange address from Point (**1**) put the BIS amount you want 
 to send in the **Amount** field and the **OpenField(data)** from Point (**2**) in the **Data** field of your wallet like in the picture below:
