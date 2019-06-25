@@ -122,3 +122,18 @@ Uncomment the hypernode sentinel line, so it reads again
 
 The hypernode will restart within a minute, bootstrap and restart.
 
+
+## C. Refilling Node peers
+
+The node can occasionally tag too many peers as inactive, and left you with too small a list.
+
+### C1. Stop the node
+
+Follow A1, A2.  
+Node should be stopped now
+
+`cd /root/Bismuth`  
+`rm peers.txt;wget https://raw.githubusercontent.com/bismuthfoundation/Bismuth/postfork-rc2/peers.txt`  
+`rm suggested_peers.txt;wget https://raw.githubusercontent.com/bismuthfoundation/Bismuth/postfork-rc2/suggested_peers.txt`
+
+Reactivate node sentinel, by following A4
