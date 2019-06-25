@@ -25,14 +25,14 @@ Choose 1-4 [1]:
 ```
 Select 1 for nano. You'll have to tell that only once.
 
-You should then see
+You should then see  
 ```
 * * * * * cd /root/Bismuth;python3 node_sentinel.py
 * * * * * cd /root/hypernode/crontab;python3 cron1.py
 */5 * * * * cd /root/hypernode/crontab;python3 cron5.py
 ```
 
-Comment out the node sentinel, so it reads
+Comment out the node sentinel, so it reads  
 ```
 #* * * * * cd /root/Bismuth;python3 node_sentinel.py
 * * * * * cd /root/hypernode/crontab;python3 cron1.py
@@ -56,7 +56,7 @@ In case it does not want to stop clean, ctrl-c it, that will also close the scre
 ### A3. Get the helper
 
 `cd /root/Bismuth`  
-`wget https://raw.githubusercontent.com/bismuthfoundation/util/master/snapshot_download.py`
+`wget https://raw.githubusercontent.com/bismuthfoundation/util/master/snapshot_download.py`  
 `python3 snapshot_download.py`
 
 Then follow the instructions.  
@@ -81,14 +81,14 @@ The node will restart within a minute.
 
 `crontab -e`
 
-You should have 
+You should have  
 ```
 * * * * * cd /root/Bismuth;python3 node_sentinel.py
 * * * * * cd /root/hypernode/crontab;python3 cron1.py
 */5 * * * * cd /root/hypernode/crontab;python3 cron5.py
 ```
 
-Comment out the hypernode sentinel1, so it reads
+Comment out the hypernode sentinel1, so it reads  
 ```
 * * * * * cd /root/Bismuth;python3 node_sentinel.py
 #* * * * * cd /root/hypernode/crontab;python3 cron1.py
