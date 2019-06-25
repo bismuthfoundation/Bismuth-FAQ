@@ -65,4 +65,48 @@ The node will restart within a minute.
 
 ## B. HyperNode Bootstrap
 
-WIP
+### B1. Stop the hypernode sentinel cron
+
+`crontab -e`
+
+You should have 
+```
+* * * * * cd /root/Bismuth;python3 node_sentinel.py
+* * * * * cd /root/hypernode/crontab;python3 cron1.py
+*/5 * * * * cd /root/hypernode/crontab;python3 cron5.py
+```
+
+Comment out the hypernode sentinel1, so it reads
+```
+* * * * * cd /root/Bismuth;python3 node_sentinel.py
+#* * * * * cd /root/hypernode/crontab;python3 cron1.py
+*/5 * * * * cd /root/hypernode/crontab;python3 cron5.py
+```
+
+ctrl-x, yes to save, enter
+
+### B2. Stop the hypernode
+
+`screen -x hypernode`  
+If there is no such screen, hypernode is not running.  
+If you see the HN output, ctrl-c it, that will also close the screen.
+
+### B3. Delete the PoS Ledger
+
+`rm /root/hypernode/main/data/pos_poc_chain.*`  
+
+Hypernode will auto fetch a new one at start
+
+### B4. Reactivate the hypernode sentinel
+
+`crontab -e`
+
+Uncomment the hypernode sentinel line, so it reads again  
+```
+* * * * * cd /root/Bismuth;python3 node_sentinel.py
+* * * * * cd /root/hypernode/crontab;python3 cron1.py
+*/5 * * * * cd /root/hypernode/crontab;python3 cron5.py
+```
+
+The hypernode will restart within a minute, bootstrap and restart.
+
