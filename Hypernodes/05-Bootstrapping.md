@@ -13,7 +13,19 @@ The following instructions apply to the default auto install scheme.
 
 `crontab -e`
 
-You should have 
+If you are asked
+```
+Select an editor.  To change later, run 'select-editor'.
+  1. /bin/nano        <---- easiest
+  2. /usr/bin/vim.basic
+  3. /usr/bin/vim.tiny
+  4. /bin/ed
+
+Choose 1-4 [1]:
+```
+Select 1 for nano. You'll have to tell that only once.
+
+You should then see
 ```
 * * * * * cd /root/Bismuth;python3 node_sentinel.py
 * * * * * cd /root/hypernode/crontab;python3 cron1.py
