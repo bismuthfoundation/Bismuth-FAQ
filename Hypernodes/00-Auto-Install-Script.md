@@ -13,6 +13,8 @@ Paste the following line, then hit 'enter':
 - The vps will then reboot, you'll lose the connection.  
 - Wait 1 min then connect again
 
+> Do not interrupt the process. Even if it may seem to be hanging for some time, let it go it will eventually move.
+
 ## Get your HN infos
 
 `cd /root/hypernode/main`  
