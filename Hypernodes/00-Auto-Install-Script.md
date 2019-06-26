@@ -26,6 +26,9 @@ Paste the following line, then hit 'enter':
 Will show the live logs of the node.  
 Never close or interrupt, `ctrl-a d` will detach you from the live logs.
 
+You can also get the current status without entering screen, by  
+`cat /root/Bismuth/powstatus.json`
+
 ## Check your hypernode live logs
 
 `screen -x hypernode`  
