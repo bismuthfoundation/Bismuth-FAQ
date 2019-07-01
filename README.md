@@ -8,45 +8,38 @@ Now maintained by the Bismuth Foundation.
 This is a WIP, your feedback is most welcome.  
 Open issues to propose a subject.
 
-## Exchanges
+## [Exchanges](Exchanges)
 
 Details for operating on individual exchanges.
 
 - [Implementation Guide](Exchanges/How_to_Implement.md)
 - [What is an Egg?](Exchanges/WTF_is_an_egg.MD)
-- [Exchanges Directory](Exchanges)
 
-## General
+## [General](General)
 Background info about Bismuth usage, community.
 
-## Install
+## [Install](Install)
 Bismuth is written in Python, so it can be run from any Python environment regardless of the operating system. Binaries for some systems are also available.
 
 - [Readme](Install/readme.md)
-- [Install Directory](Install)
 
-## Mining
+## [Mining](Mining)
 Learn how to let your GPU generate Bismuth for you, details about pools. 
 
 - [Readme](Mining/README.md)
-- [Mining Directory](Mining)
 
-## Nodes
+
+## [Nodes](Nodes)
 Whether you want to start running Bismuth or are facing issues, this section is for you.
 
 - [Node config](Nodes/Node_config.MD)
 - [Node Troubleshooting](Nodes/Node_Troubleshooting.MD)
-- [Nodes Directory](Nodes)
 
-## Wallet
+## [Wallet](Wallet)
 Official Wallet usage and FAQ
 
-- [Wallet Directory](Wallet)
-
-## Under the Hood
+## [Under the Hood](UnderTheHood)
 Further info for the techies, academics and developers.
-
-- [Under the Hood Directory](UnderTheHood)
 
 ### More Info
 
