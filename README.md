@@ -1,4 +1,4 @@
-# BismuthHowto
+# Bismuth How-to
 Official how tos and base info for [Bismuth Crypto Currency](https://bismuth.cz).  
 Wallet, mining, nodes and such.
 
@@ -11,7 +11,7 @@ Open issues to propose a subject.
 ## General
 Background info about Bismuth usage, community.
 
-## Install
+## Installing
 Well, you guess! How to install wallet and node on various OS.
 
 - [readme](Install/readme.MD)
@@ -21,7 +21,7 @@ Well, you guess! How to install wallet and node on various OS.
 - [macOS](Install/macOS.md)
 - [OsX](Install/OsX.md)
 - [pyenv_linux](Install/pyenv_linux.md)
-- [Ubuntu 18.04 Install](Install/Ubuntu_18.04_Install.md)
+- [Ubuntu 18.04 Installation](Install/Ubuntu_18.04_Install.md)
 - [Upgrading to 4.2.8 for Windows]("Install/Upgrading to 4.2.8 for Windows.md")
 - [Windows]("Install/Windows.MD")
 
@@ -42,15 +42,21 @@ All you need about Bismuth Hypernodes
 - [Auto Install Script](Hypernodes/00-Auto-Install-Script.md)
 - [Hypernode Registration](Hypernodes/01-Hypernode_Registration.md)
 - [Bootstrapping](Hypernodes/05-Bootstrapping.md)
-- [PreRelease 0.0.95](Hypernodes/HN_PreRelease_0-0-95.md)
 - [Moving Hypernode](Hypernodes/Hypernode_moving.md)
-- [Hypernode_FAQ](Hypernodes/HyperNodes_FAQ.md)
+- [Hypernode FAQ](Hypernodes/HyperNodes_FAQ.md)
 - [Installing Hypernode](Hypernodes/Hypernodes_Install_0-0-95.md)
 - [Hypernode Rewards](Hypernodes/HyperNodes_rewards.md)
-- [Hypernode Upgrade 0.0.95](Hypernodes/Hypernodes_Upgrade_0-0-95.md)
-- [Hypernode Upgrade 0.0.97](Hypernodes/Hypernodes_Upgrade_0-0-97.md)
+
 - [Inactive Hypernodes](Hypernodes/Inactive_HN.md)
 - [Update Node](Hypernodes/Node_update.md)
+
+
+
+- [Pre-release 0.0.95](Hypernodes/HN_PreRelease_0-0-95.md)
+- [Hypernode Upgrade 0.0.95](Hypernodes/Hypernodes_Upgrade_0-0-95.md)
+- [Hypernode Upgrade 0.0.97](Hypernodes/Hypernodes_Upgrade_0-0-97.md)
+
+
 - [Old Hypernode](Hypernodes/old_hypernode.MD)
 - [tmp](Hypernodes/tmp.md)
 
