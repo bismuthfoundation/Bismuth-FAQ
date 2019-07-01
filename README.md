@@ -8,41 +8,42 @@ Now maintained by the Bismuth Foundation.
 This is a WIP, your feedback is most welcome.  
 Open issues to propose a subject.
 
-## General
-Background info about Bismuth usage, community.
-
-## Installing
-- [Well, you guess! How to install wallet and node on various OS.](Install/readme.MD)
-
-## Mining
-- [Want to mine some $BIS?](Mining/README.md)
-
-## Nodes
-Configuring, maintening, troubleshooting your node(s)
-- [Node config](Mining/Node_config.MD)
-- [Node Troubleshooting](Mining/Node_Troubleshooting.MD)
-
-## HyperNodes
-- [All you need about Bismuth Hypernodes](Hypernodes)
-
-
-## Wallet
-- [Official Wallet usage and FAQ](Wallet)
-
-
-## Under the Hood
-- [Further info for the techies, academics and devs out there.](UnderTheHood)
-
-
 ## Exchanges
-
-- [Details for operating on individual exchanges](Exchanges)
-
+Details for operating on individual exchanges.
 
 - [Implementation Guide](Exchanges/How_to_Implement.md)
 - [What is an Egg?](Exchanges/WTF_is_an_egg.MD)
+- [Exchanges Directory](Exchanges)
 
-## More Info
+## General
+Background info about Bismuth usage, community.
+
+## Install
+Bismuth is written in Python, so it can be run from any Python environment regardless of the operating system. Binaries for some systems are also available.
+- [Readme](Install/readme.md)
+- [Install Directory](Install)
+
+## Mining
+Learn how to let your GPU generate Bismuth for you, details about pools. 
+- [Readme](Mining/README.md)
+- [Mining Directory](Mining)
+
+## Nodes
+Whether you want to start running Bismuth or are facing issues, this section is for you.
+- [Node config](Nodes/Node_config.MD)
+- [Node Troubleshooting](Nodes/Node_Troubleshooting.MD)
+- [Nodes Directory](Nodes)
+
+## Wallet
+Official Wallet usage and FAQ
+- [Wallet Directory](Wallet)
+
+
+## Under the Hood
+Further info for the techies, academics and developers.
+- [Under the Hood Directory](UnderTheHood)
+
+### More Info
 - [Bismuth Blog](https://hypernodes.bismuth.live/?page_id=20) - News and information about Bismuth and many useful tools.
 - [Awesome Bismuth](https://github.com/bismuthfoundation/Awesome-Bismuth) - more links and resources about Bismuth.
 - [Hack with BIS](https://github.com/bismuthfoundation/Hack-with-BIS) - Step by step tutorials.
@@ -51,7 +52,6 @@ Configuring, maintening, troubleshooting your node(s)
 - [Bismuth Block Explorer](https://github.com/maccaspacca/BismuthExplorer) - The official Bismuth explorer code by maccaspacca.
 - [Bismuth Roadmap](https://github.com/bismuthfoundation/Roadmap)
 
-
-## Licence
+### Licence
 This content is published under the MIT licence.  
 In a Nutshell: You can do anything you want with it, as long as you credit the source (This repo, EggPool, Bismuth Foundation)
