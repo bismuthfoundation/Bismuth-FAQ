@@ -12,24 +12,10 @@ Open issues to propose a subject.
 Background info about Bismuth usage, community.
 
 ## Installing
-Well, you guess! How to install wallet and node on various OS.
-
-- [readme](Install/readme.MD)
-
-
-- [Linux](Install/Videos.md)
-- [macOS](Install/macOS.md)
-- [OsX](Install/OsX.md)
-- [pyenv_linux](Install/pyenv_linux.md)
-- [Ubuntu 18.04 Installation](Install/Ubuntu_18.04_Install.md)
-- [Upgrading to 4.2.8 for Windows]("Install/Upgrading to 4.2.8 for Windows.md")
-- [Windows]("Install/Windows.MD")
-
+- [Well, you guess! How to install wallet and node on various OS.](Install/readme.MD)
 
 ## Mining
-Want to mine some $BIS? 
-
-- [readme](Mining/README.md)
+- [Want to mine some $BIS?](Mining/README.md)
 
 ## Nodes
 Configuring, maintening, troubleshooting your node(s)
@@ -37,60 +23,24 @@ Configuring, maintening, troubleshooting your node(s)
 - [Node Troubleshooting](Mining/Node_Troubleshooting.MD)
 
 ## HyperNodes
-All you need about Bismuth Hypernodes
-
-- [Auto Install Script](Hypernodes/00-Auto-Install-Script.md)
-- [Hypernode Registration](Hypernodes/01-Hypernode_Registration.md)
-- [Bootstrapping](Hypernodes/05-Bootstrapping.md)
-- [Moving Hypernode](Hypernodes/Hypernode_moving.md)
-- [Hypernode FAQ](Hypernodes/HyperNodes_FAQ.md)
-- [Installing Hypernode](Hypernodes/Hypernodes_Install_0-0-95.md)
-- [Hypernode Rewards](Hypernodes/HyperNodes_rewards.md)
-
-- [Inactive Hypernodes](Hypernodes/Inactive_HN.md)
-- [Update Node](Hypernodes/Node_update.md)
-
-
-
-- [Pre-release 0.0.95](Hypernodes/HN_PreRelease_0-0-95.md)
-- [Hypernode Upgrade 0.0.95](Hypernodes/Hypernodes_Upgrade_0-0-95.md)
-- [Hypernode Upgrade 0.0.97](Hypernodes/Hypernodes_Upgrade_0-0-97.md)
-
-
-- [Old Hypernode](Hypernodes/old_hypernode.MD)
-- [tmp](Hypernodes/tmp.md)
+- [All you need about Bismuth Hypernodes](Hypernodes)
 
 
 ## Wallet
-Official Wallet usage and FAQ
+- [Official Wallet usage and FAQ](Wallet)
 
-- [FAQ](Wallet/wallet_faq.MD)
-- [Help](Wallet/wallet_issues.MD)
-
-
-- [Backup](Wallet/Tornado/backup.md)
-- [Windows Installation](Wallet/Tornado/install-windows.md)
-- [Quick Start](Wallet/Tornado/quickstart.md)
-- [Readme](Wallet/Tornado/readme.md)
-- [Starting Options](Wallet/Tornado/starting-options.md)
 
 ## Under the Hood
-Further info for the techies, academics and devs out there.
+- [Further info for the techies, academics and devs out there.](UnderTheHood)
 
-- [Hard Fork at 700,000 Blocks](D:\Bismuth-FAQ\UnderTheHood\HF_700K.md)
-- [Mempool](D:\Bismuth-FAQ\UnderTheHood\mempool.MD)
-- [Network and Blocks](D:\Bismuth-FAQ\UnderTheHood\Network_and_blocks.MD)
-- [Regtest](D:\Bismuth-FAQ\UnderTheHood\Regtest.md)
-- [Wallet for Devs](D:\Bismuth-FAQ\UnderTheHood\Wallet-devs.md)
 
 ## Exchanges
 
-- [Graviex](Exchanges/graviex.com.MD)
-- [Implementation Guide](Exchanges/How_to_Implement.md)
-- [qTrade](Exchanges/qTrade.io.MD)
-- [TOPBTC voting](Exchanges/TOP_BTC.md)
-- [What is an Egg?](Exchanges/WTF_is_an_egg.MD)
+- [Details for operating on individual exchanges](Exchanges)
 
+
+- [Implementation Guide](Exchanges/How_to_Implement.md)
+- [What is an Egg?](Exchanges/WTF_is_an_egg.MD)
 
 ## More Info
 - [Bismuth Blog](https://hypernodes.bismuth.live/?page_id=20) - News and information about Bismuth and many useful tools.
