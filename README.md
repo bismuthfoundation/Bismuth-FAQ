@@ -2,17 +2,17 @@
 Official how tos and base info for [Bismuth Crypto Currency](https://bismuth.cz).  
 Wallet, mining, nodes and such.
 
-Initiated by EggPool Https://EggPool.Net  
+Initiated by [EggPool](https://EggPool.Net).
 Now maintained by the Bismuth Foundation.
 
-This is a WIP, your feedback is most welcome.  
-Open issues to propose a subject.
+_This is work in progress, your feedback is most welcome.
+Open issues to propose a subject._
 
 ## Exchanges
 
 Details for operating on individual exchanges.
-- [FAQ and user help](Exchanges) to deposit and withdraw on the exchanges BIS is listed on
-- Exchanges willing to list BIS wil lrefer to our official [implementation guide](Exchanges/How_to_Implement.md)
+- [FAQ and user help](Exchanges) to deposit and withdraw on the exchanges BIS is listed on.
+- Exchanges willing to list BIS will refer to our official [implementation guide](Exchanges/How_to_Implement.md)
 - [What is an Egg?](Exchanges/WTF_is_an_egg.MD)
 
 ## General
@@ -21,7 +21,7 @@ Details for operating on individual exchanges.
 - [Bismuth Repository](https://github.com/bismuthfoundation/Bismuth)
 - [Key Safety](General/Keys_safety.MD)
 - [Community](General/Community.MD)
-- [Videos](General/Videos.MD)
+- [Videos](General/Videos.md)
 
 ## Hypernodes
 Learn about [Hypernodes](Hypernodes) and their role in the Bismuth ecosystem. Installation, upgrades, migration.
