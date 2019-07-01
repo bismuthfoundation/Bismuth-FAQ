@@ -27,8 +27,7 @@ Details for operating on individual exchanges.
 Learn about [Hypernodes](Hypernodes) and their role in the Bismuth ecosystem. Installation, upgrades, migration.
 
 ## Install
-- [Installation guides](Install) for Bismuth, which is written in Python, so it can be run from any Python environment regardless of the operating system. Binaries for some systems are also available.
-- [Readme](Install/readme.md)
+[Installation guides](Install) for Bismuth, which is written in Python, so it can be run from any Python environment regardless of the operating system. Binaries for some systems are also available.
 
 ## Mining
 Learn how to let your GPU [generate Bismuth](Mining/README.md) for you, details about pools. 
@@ -46,7 +45,7 @@ Downloading too many blocks using a node can take a long time, [this method](Sna
 Excited about helping test new Bismuth feature? [Join the testnet today](Testnet/Readme.md).
 
 ## Under the Hood
-- [Further info](UnderTheHood) for the techies, academics and developers.
+[Further info](UnderTheHood) for the techies, academics and developers.
 
 ## Wallet
 Official [wallet usage and FAQ](Wallet).
