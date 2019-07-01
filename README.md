@@ -8,38 +8,45 @@ Now maintained by the Bismuth Foundation.
 This is a WIP, your feedback is most welcome.  
 Open issues to propose a subject.
 
-## [Exchanges](Exchanges)
+## Exchanges
 
 Details for operating on individual exchanges.
-
-- [Implementation Guide](Exchanges/How_to_Implement.md)
+- [FAQ and user help](Exchanges) to deposit and withdraw on the exchanges BIS is listed on
+- Exchanges willing to list BIS wil lrefer to our official [implementation guide](Exchanges/How_to_Implement.md)
 - [What is an Egg?](Exchanges/WTF_is_an_egg.MD)
 
-## [General](General)
-Background info about Bismuth usage, community.
+## General
+[Background](General) info about Bismuth usage, community.
 
-## [Install](Install)
-Bismuth is written in Python, so it can be run from any Python environment regardless of the operating system. Binaries for some systems are also available.
+- [Bismuth Repository](https://github.com/bismuthfoundation/Bismuth)
+- [Key Safety](General/Keys_safety.MD)
+- [Community](General/Community.MD)
+- [Videos](General/Videos.MD)
 
+## Hypernodes
+Learn about [Hypernodes](Hypernodes) and their role in the Bismuth ecosystem. Installation, upgrades, migration.
+
+## Install
+- [Installation guides](Install) for Bismuth, which is written in Python, so it can be run from any Python environment regardless of the operating system. Binaries for some systems are also available.
 - [Readme](Install/readme.md)
 
-## [Mining](Mining)
-Learn how to let your GPU generate Bismuth for you, details about pools. 
+## Mining
+Learn how to let your GPU [generate Bismuth](Mining) for you, details about pools. 
 
 - [Readme](Mining/README.md)
 
 
-## [Nodes](Nodes)
-Whether you want to start running Bismuth or are facing issues, this section is for you.
+## Nodes
+Whether you want to start running Bismuth or are facing issues, [this section](Nodes) is for you.
 
 - [Node config](Nodes/Node_config.MD)
 - [Node Troubleshooting](Nodes/Node_Troubleshooting.MD)
 
-## [Wallet](Wallet)
-Official Wallet usage and FAQ
+## Wallet
+Official [wallet usage and FAQ](Wallet).
 
-## [Under the Hood](UnderTheHood)
-Further info for the techies, academics and developers.
+## Under the Hood
+- [Further info](UnderTheHood) for the techies, academics and developers.
 
 ### More Info
 
