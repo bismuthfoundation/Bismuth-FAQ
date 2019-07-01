@@ -31,10 +31,7 @@ Learn about [Hypernodes](Hypernodes) and their role in the Bismuth ecosystem. In
 - [Readme](Install/readme.md)
 
 ## Mining
-Learn how to let your GPU [generate Bismuth](Mining) for you, details about pools. 
-
-- [Readme](Mining/README.md)
-
+Learn how to let your GPU [generate Bismuth](Mining/README.md) for you, details about pools. 
 
 ## Nodes
 Whether you want to start running Bismuth or are facing issues, [this section](Nodes) is for you.
@@ -42,11 +39,17 @@ Whether you want to start running Bismuth or are facing issues, [this section](N
 - [Node config](Nodes/Node_config.MD)
 - [Node Troubleshooting](Nodes/Node_Troubleshooting.MD)
 
-## Wallet
-Official [wallet usage and FAQ](Wallet).
+## Snapshot
+Downloading too many blocks using a node can take a long time, [this method](Snapshot/Readme.md) will make it much faster.
+
+## Testnet
+Excited about helping test new Bismuth feature? [Join the testnet today](Testnet/Readme.md).
 
 ## Under the Hood
 - [Further info](UnderTheHood) for the techies, academics and developers.
+
+## Wallet
+Official [wallet usage and FAQ](Wallet).
 
 ### More Info
 
