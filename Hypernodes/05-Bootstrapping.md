@@ -105,7 +105,7 @@ If you see the HN output, ctrl-c it, that will also close the screen.
 
 ### B3. Delete the PoS Ledger
 
-`rm /root/hypernode/main/data/pos_poc_chain.*`  
+`rm /root/hypernode/main/data/poc_pos_chain.*`  
 
 Hypernode will auto fetch a new one at start
 
