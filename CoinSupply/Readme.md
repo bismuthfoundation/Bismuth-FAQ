@@ -1,4 +1,12 @@
-The following Python code calculates the total Bismuth coin supply when the block_height > 1200000. There was a hard fork which changed the mining rewards at block_height=1200000, and that explains why the total coin supply functions are written like this. Note also the SQL code after the comment symbol #. It calculates all mining rewards R0 from the genesis up to the hard fork at block_height=1200000. The variable R1 contains the sum of all hypernode reward before block height 1200000. The constant delta=2e-6 describes how much the mining rewards decrease for every new block, while the constant pos=2.4 describes the fixed reward for hypernodes. The constant pow=10.2 describes the mining reward at block_height=1200000 and the variable N is the number of new blocks since the hardfork. The constant dev_rew takes into account the 10% developer rewards which are calculated based on the mining rewards, and currently not on the hypernodes rewards.
+The following Python code calculates the total Bismuth coin supply when the block_height > 1200000.  
+There was a hard fork which changed the mining rewards at block_height=1200000, and that explains why the total coin supply functions are written like this.  
+
+Note also the SQL code after the comment symbol #: It calculates all mining rewards R0 from the genesis up to the hard fork at block_height=1200000.  
+
+- The variable R1 contains the sum of all hypernode reward before block height 1200000.  
+- The constant delta=2e-6 describes how much the mining rewards decrease for every new block, while the constant pos=2.4 describes the fixed reward for hypernodes.  
+- The constant pow=10.2 describes the mining reward at block_height=1200000 and the variable N is the number of new blocks since the hardfork.  
+- The constant dev_rew takes into account the 10% developer rewards which are calculated based on the mining rewards, and currently not on the hypernodes rewards.
 
 ~~~
 def coin_supply(block):
