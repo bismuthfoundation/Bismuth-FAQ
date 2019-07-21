@@ -1,0 +1,180 @@
+# Bismuth Hypernode: Upgrade to 0.0.99
+
+**First draft, incomplete**
+
+
+
+**Hypernode Version 0.0.99 is likely to be required update soon**  
+In any case, this is a major stability and performance improvement ovver 0.0.98, so you have to update.
+
+What's new:
+- updated companion plugin
+- more requests done by the plugin, with custom commands in the node context. Smoother requests, less db stress.
+- completely rewritten mempool, faster and less cpu intensive
+- improved sql db structure, faster
+- improved handling of stalled peers and inner locks
+- improved fork resistance and stability of PoW reference point.
+- added temporary cache to alleviate some heavy computation pressure.
+- recommended python version is now 3.7, fixes some async bugs.
+
+If it's a new install, see: XXXXXXX.
+
+This is an overview for tech savy people.  
+A helper script will be provided a.s.a.p. for auto-installed setup.
+
+**Crucial steps are making sure your node is at latest 4.3.0.6 , companions updated, as well as running hn_check**
+
+## What are the incidence on my rewards?
+
+- If you follow the steps, you'll just get a few minutes down time, no impact
+- At worst, say a full hour downtime, you'll just loose that hour (but others may, too, so same thing in the end)
+- If you *don't* update, then you likely may fork and get stuck and get no more rewards.
+
+## In a nutshell
+(all takes place on the vps)
+
+- Upgrade Python to 3.7 if possible
+- Upgrade Bismuth Node to 4.3.0.6
+- make sure to run pip3 install -r requirements-node.txt
+- Stop HN
+- Update HN code to beta99 branch
+- make sure to run pip3 install -r requirements.txt
+- **Run hn_check**
+- Restart regular node
+- Edit cron1.py to invoke python3.7 instead of python3
+- Check it works
+
+
+**BELOW IS THE OLD UPGRADE PROCEDURE**
+
+**WIP**
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+## Upgrade Bismuth Node to 4.2.7
+(on the vps)
+
+> I suppose you followed my advice and have bismuth installed under ~/Bismuth.  
+If you have bismuth into Bismuth-4.2.6/... then it's time to change to ease future upgrades.
+
+1. Fetch and extract the latest node code:
+
+```
+cd 
+wget https://github.com/hclivess/Bismuth/archive/4.2.7.tar.gz
+tar -zxvf 4.2.7.tar.gz
+```
+
+This extracts the code to "Bismuth-4.2.7"
+
+2. **Optionally**, make a backup:
+
+```
+mkdir Bismuth.bak
+cp Bismuth/*.py Bismuth.bak
+cp Bismuth/*.txt Bismuth.bak
+cp Bismuth/*.der Bismuth.bak
+```
+
+3. Update the node code  
+
+`cp Bismuth-4.2.7/*.py Bismuth`
+
+4. Double check your config.txt
+
+`nano Bismuth/config.txt`
+
+The 3 important things to check are:
+
+```
+version_allow=mainnet0017,mainnet0018,mainnet0019
+terminal_output=True
+quicksync=False
+```
+
+Change these lines if they say otherwise.
+
+5. Restart node with up to date code  
+> `screen -ls` will list all your screens if you forgot the node screen name.  
+I'll suppose it's "node"
+
+`screen -x node`to enter the screen  
+`ctrl-c` to kill the node  
+`python3 node.py` to restart the node.
+
+It will say "Creating Junction Noise file, this usually takes a few minutes..."   
+This means at least 3 minutes.  
+Do not interrupt, let it create the file and sync.
+
+Once the node is sync, stop it by ctrl-c
+
+Exit the screen `ctrl-a d`
+
+## Upgrade Hypernode code
+(on the vps)
+
+You can leave your HN running while upgrading, you'll restart it at the end.
+
+Upgrade the code:
+- go in you home dir, where you installed the hypernode `cd`
+- check the hypernode dir is there `ls -al` should list a "hypernode" directory
+- rm any previous .tar.gz archive `rm hypernode.tar.gz`
+- fetch the latest code `wget http://bp12.eggpool.net/hypernode.tar.gz`
+- extract the code `tar -zxvf hypernode.tar.gz`
+- this will not overwrite your custom config.txt nor the settings you may have in it
+- go into the hn dir `cd hypernode`
+- make sure the updated requirements are satisfied `pip3 install -r requirements.txt`
+
+## Run the check 
+
+- go into the main hypernode/main dir `cd main`
+- run the check `python3 hn_check.py`  
+- it will complain about node related things, powstatus...: nevermind, it did install the node plugin, that was required.
+
+## Restart the node
+
+- `screen -x node`  
+- `python3 node.py`  
+- exit the node screen `ctrl-a d`  
+- now, you can relaunch `python3 hn_check.py`. Make sure all is ok before going further on.  
+
+## Restart your HN: 
+- enter the hypernode screen `screen -x hypernode`
+- stop the HN : ctrl-c
+- you'll be kicked out of the screen, the cronjob sentinel will restart it in 1 minute.
+- if you had no sentinel, restart it by hand.
+
+## Setup the cronjob sentinel
+
+(no need to change if you already did it)
+
+The detailled steps are described here: https://github.com/bismuthfoundation/hypernode/tree/master/crontab
+
+This will handle auto restarts and make sure your HN works 100% of the time, unattended.  
+
+Try `screen -ls` until you see a "hypernode" screen listed, it works!
+
+# Upgrade FAQ
+
+> To be completed with your questions.
