@@ -1,8 +1,6 @@
 # Bismuth Hypernode: Upgrade to 0.0.99
 
-**First draft, incomplete**
-
-
+Still a draft.
 
 **Hypernode Version 0.0.99 is likely to be required update soon**  
 In any case, this is a major stability and performance improvement ovver 0.0.98, so you have to update.
@@ -43,11 +41,6 @@ A helper script will be provided a.s.a.p. for auto-installed setup.
 - Restart regular node
 - Edit cron1.py to invoke python3.7 instead of python3
 - Check it works
-
-
-**BELOW IS THE OLD UPGRADE PROCEDURE**
-
-**WIP**
 
 
 ## Install Python3.7
