@@ -2,10 +2,10 @@ Bismuth has a testnet which is used for testing and debugging purposes by the co
 
 This document describes how to setup and run a testnet node on Linux, assuming python version 3.6 or later.
 
-If you want to run a stable testnet node, download and unzip the source code from here: [Bismuth Releases](https://github.com/hclivess/Bismuth/releases)
+If you want to run a stable testnet node, download and unzip the source code from here: [Bismuth Releases](https://github.com/bismuthfoundation/Bismuth/releases)
 
 If you want to test the latest code under development, execute the following command:   
-```git clone https://github.com/hclivess/Bismuth.git```
+```git clone https://github.com/bismuthfoundation/Bismuth.git```
 
 If you have previously cloned the Bismuth repo, update it with:   
 ```git pull```
