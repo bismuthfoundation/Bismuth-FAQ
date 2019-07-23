@@ -22,11 +22,7 @@ debug_level=WARNING
 
 If the file peers_test.txt does not exist, create one with the following contents:   
 ```
-('35.227.90.114', '2829')
-('51.15.97.143', '2829')
-('78.28.227.89', '5658')
-('163.172.163.4', '2829')
-('94.113.207.67', '2829')
+{'35.227.90.114': '2829','51.15.97.143': '2829','78.28.227.89': '5658','163.172.163.4': '2829','94.113.207.67': '2829'}
 ```
 
 The testnet node can then be started with, for example:   
