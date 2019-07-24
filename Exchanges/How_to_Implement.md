@@ -23,7 +23,7 @@ It comes with specific features, but things you may be used to rely on are not a
 
 ## The repos
 
-Main node code is at https://github.com/bismuthfoundation/Bismuth
+Main node code is at https://github.com/bismuthfoundation/Bismuth  
 See https://github.com/bismuthfoundation/Bismuth/blob/master/_MOST_USEFUL_FILES.md  for a quickstart of what is what  
 
 Quick install https://github.com/bismuthfoundation/Bismuth-FAQ/blob/master/Install/Ubuntu_18.04_Install.md  
@@ -34,14 +34,14 @@ and FAQ https://github.com/bismuthfoundation/Bismuth-FAQ/
 
 Most of the companion projects are under the BismuthFoundation organization or EggPool
 
-- Native API Doc https://github.com/bismuthfoundation/BismuthAPI
+- Native API Doc https://github.com/bismuthfoundation/BismuthAPI  
 - Bismuth plugins https://github.com/bismuthfoundation/BismuthPlugins  
-- Json-RPC Server https://github.com/EggPool/BismuthRPC
+- Json-RPC Server https://github.com/EggPool/BismuthRPC  
 - Console wallet demo https://github.com/bismuthfoundation/Antimony
 
 ## Official explorers
 
-- http://bismuth.online (with API)
+- http://bismuth.online (with API)  
 - https://hypernodes.bismuth.live/?page_id=83
 
 # Interact with BIS
@@ -51,14 +51,14 @@ Most of the companion projects are under the BismuthFoundation organization or E
 You can interact with BIS
 
 - With the official explorer API  
-  http://bismuth.online/apihelp
-- With an extra - bitcoin alike - json-rpc server
-- With the native API
+  http://bismuth.online/apihelp  
+- With an extra - bitcoin alike - json-rpc server  
+- With the native API   
 - Straight by querying/feeding the DB
 
 ## The API
 
-Native API Doc and code in several languages: https://github.com/bismuthfoundation/BismuthAPI
+Native API Doc and code in several languages: https://github.com/bismuthfoundation/BismuthAPI  
 Prefered way to interact with Bismuth nodes. No extra layer, direct feedback.
 
 ## The Json-RPC Server
@@ -73,10 +73,10 @@ https://github.com/EggPool/BismuthRPC/blob/master/RPCServer/Commands.md
 
 Doc and structure to be released if needed.
 
-- `static/ledger.db`: blockchain
-- `static/hyper.db`: pruned chain
-- `static/index.db`: additionnal index db
-- `mempool.db`: to be embedded transactions.  
+- `static/ledger.db`: blockchain  
+- `static/hyper.db`: pruned chain  
+- `static/index.db`: additionnal index db  
+- `mempool.db`: to be embedded transactions.   
   You can insert new tx in the mempool db directly. Example below.
 
 # Global Flow
@@ -91,25 +91,25 @@ Pros:
 - Easier for the user
 
 Cons:
-- Many keys to create, handle and safe store
+- Many keys to create, handle and safe store  
 - Requires large number of internal tx (with fees) to transfer between wallets  
   (large % of deposits are likely to end up on a different wallet for withdrawal).  
-  Dust + fees
-- Needs to watch incoming blocks for all users addresses
+  Dust + fees  
+- Needs to watch incoming blocks for all users addresses  
 
 B/ A single deposit address, plus user specific id in the "data" (message) field of the transaction.
 
 Pros:
-- Single address to watch
-- Single spending key to safe store
-- No fees to transfer between wallets
+- Single address to watch  
+- Single spending key to safe store  
+- No fees to transfer between wallets  
 
 Cons:  
 - Users can forget to paste the message.  
 
 Workaround:  
-- We can hardcode your exchange address in the wallet, so they can't send to you without a message
-- You can send back the empty messages funds after some time, run some garbage collector.
+- We can hardcode your exchange address in the wallet, so they can't send to you without a message  
+- You can send back the empty messages funds after some time, run some garbage collector.  
 
 > We advise to use the B/ approach.
 
@@ -124,8 +124,8 @@ Depending on the exchange flow, you can have a spending script assemble, sign an
 TXIDs are the first 56 chars of the transaction signature (a base64 encoded buffer).  
 You can then have a TXID before you really *send* the transaction to the network.
 
-See https://github.com/bismuthfoundation/Bismuth/blob/master/check_tx.py
-A Demo script that takes a transaction id as input, and sends back a json with its status.
+See https://github.com/bismuthfoundation/Bismuth/blob/master/check_tx.py  
+A Demo script that takes a transaction id as input, and sends back a json with its status.  
 Comes with a doc https://github.com/bismuthfoundation/Bismuth/blob/master/check_tx.md
 
 # Code examples
@@ -148,7 +148,7 @@ ex:
 
 ## send_nogui.py
 
-Command line script to assemble, sign, send a transaction.
+Command line script to assemble, sign, send a transaction.  
 Can be used as base for automated payment scripts.  
 Does not send anything sensitive to the node.
 
@@ -156,12 +156,12 @@ https://github.com/bismuthfoundation/Bismuth/blob/master/send_nogui.py
 
 This script can be split into several functional parts
 
-- connects to local mempool db to check for un-mined tx
-- connects to local ledger to check for balance
-- calculates fees 
-- assemble transaction structure
-- signs transaction
-- sends a "mpinsert" message via tcp socket to the local node.
+- connects to local mempool db to check for un-mined tx  
+- connects to local ledger to check for balance  
+- calculates fees  
+- assemble transaction structure  
+- signs transaction  
+- sends a "mpinsert" message via tcp socket to the local node.  
 - prints the node answer.
 
 The first steps may be avoided: You can just ignore the local db checks: the local node itself will answer with the matching error message if you spent too much because of a mempool tx.
@@ -176,7 +176,7 @@ Since the nodes will re-assemble the tx to check the sig, any meaningless char t
 ## Trigger an event on a specific transaction
 
 Bismuth plugins can be used to trigger an event (like http hook or anything) as soon as a block is digested by the node.  
-See that exemple plugin for triggering an event on a specific transaction:
+See that exemple plugin for triggering an event on a specific transaction:  
 https://github.com/bismuthfoundation/BismuthPlugins/blob/master/plugins/201_on_transactions/__init__.py
 
 
@@ -217,7 +217,7 @@ Non listed params have to stick to the defaults.
 Some large scale attacks come from some specific IPS or cloud services.  
 We strongly advise to run the hypernode plugin on your node. Although designed for the Hypernodes, it does not require one, and adds the following features:
 
-- powstatus.json file with current state of the node
+- powstatus.json file with current state of the node  
 - ip filtering of peers based upon on chain synced black and whitelists
 
 Just add the plugin file in a plugins/500_hypernode/ directory of your Bismuth install.  
@@ -232,6 +232,12 @@ Needs
 Bismuth now comes with a regtest mode
 
 https://github.com/bismuthfoundation/Bismuth-FAQ/blob/master/UnderTheHood/Regtest.md
+
+# Docker images
+
+Bismuth node and rpc-server now come as a Docker image, see 
+- Node https://github.com/bismuthfoundation/Bismuth-Docker/tree/master/node
+- RPC Server https://github.com/bismuthfoundation/Bismuth-Docker/tree/master/rpc-server
 
 
 
