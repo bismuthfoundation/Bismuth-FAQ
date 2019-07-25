@@ -90,7 +90,7 @@ cleanup
 ```
 cd 
 cd Bismuth
-rm -rd Bismuth/polysign
+rm -rd polysign
 ```
 
 4. Optionnaly adjust your config.txt
