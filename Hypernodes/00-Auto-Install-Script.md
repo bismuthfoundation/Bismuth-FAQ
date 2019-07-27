@@ -6,13 +6,13 @@
 - An **Ubuntu 18.04** vps. 
 - be ssh-connected as root to the vps (check your provider doc if this is new for you)
 
-The auto install script will add a 3GB swap file. Minimal real RAM needed is 2GB.  
-You can try with 1GB Ram only, it runs but we make no guarantee on the long term or petrics of your HN.
+The auto install script will add a 3GB swap file. Minimal requirements are **2GB real RAM**.  
+You can try with 1GB Ram only, it runs but we make no guarantee on the long term or metrics of your HN.
 
-2 Cores/vCPUs are the official requirements.  
+**2 Cores/vCPUs** are the official requirements.  
 You can try with a single core, but again, this is not officially supported and you're likely to run into troubles at some point.
 
-Your vps provider also plays a huge role. I saw bad hosts with several vcpus performing way worse than top notch 1cpu vps.  
+> Your vps provider also plays a huge role. I saw bad hosts with several vCpus performing way worse than top notch 1cpu vps.  
 If you have to choose, prefer CPU over RAM. (like, better 2 cpu/2GB ram than 1 cpu/4Gb ram)
 
 ## B. One liner
