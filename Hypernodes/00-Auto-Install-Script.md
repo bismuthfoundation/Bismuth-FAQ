@@ -12,8 +12,9 @@ You can try with 1GB Ram only, it runs but we make no guarantee on the long term
 **2 Cores/vCPUs** are the official requirements.  
 You can try with a single core, but again, this is not officially supported and you're likely to run into troubles at some point.
 
-> Your vps provider also plays a huge role. I saw bad hosts with several vCpus performing way worse than top notch 1cpu vps.  
-If you have to choose, prefer CPU over RAM. (like, better 2 cpu/2GB ram than 1 cpu/4Gb ram)
+> Your vps provider also plays a huge role. I saw bad hosts with several vCpus performing way worse than top notch 1cpu vps. If you have to choose, prefer CPU over RAM. (like, better 2 cpu/2GB ram than 1 cpu/4Gb ram)
+
+**Note**: This script is intended to run on a *blank* vps, with no other apps running, with default ssh on port 22. UFW Firewall will be activated with a custom set of rules. If you are in a specific setup or need more open ports, please have a look at the script source and adjust accordingly.
 
 ## B. One liner
 
