@@ -1,4 +1,6 @@
-# Auto install script for Bismuth Node + Hypernode, latest version.
+# Auto install script for Bismuth Node + Hypernode, 0.0.98 version.
+
+**OLDER VERSION, DO NOT USE**
 
 ## Pre-requisite
 
