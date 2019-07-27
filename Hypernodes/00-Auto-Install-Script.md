@@ -28,6 +28,7 @@ Paste the following line, then hit 'enter':
 
 Once you can connect again, be a little more patient. Rushing and restarting things often do break.  
 You can issue a `screen -ls` command after 1 minute to make source node and HN are started.  
+If the command lists both a "node" and a "hypernode" screen, you're ok.
 
 Then, **let the server alone for 30 minutes.**  
 Both node and HN have to init, discover peers, catch up... let'em play.
