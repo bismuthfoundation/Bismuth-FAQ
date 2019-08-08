@@ -43,10 +43,15 @@ These are the minimal requirements, subject to modification. Final requirements 
 
 - Linux host (vps or dedicated)
 - 1 dedicated ipv4 address
-- 10 GB SSD disk 
+- 25 GB SSD disk 
 - 4GB Ram
 - 2 CPU cores
 - Unmetered bandwidth can be a plus.
+
+> 1 CPU, 1Gb ram + 3Gb swap file has been tested as working, but may not in the future.  
+You can give it a try, but that's not something we officially recommend.
+
+> SSD disk is because the node does quite some I/Os, so having a fast disk makes a difference.
 
 
 ### Maintenance
