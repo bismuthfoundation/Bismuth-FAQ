@@ -1,7 +1,7 @@
 # Bismuth HyperNodes FAQ
 
-2019-07-27: v 0.0.99 Release, https://github.com/bismuthfoundation/hypernode/releases
-(...)
+2019-07-27: v 0.0.99 Release, https://github.com/bismuthfoundation/hypernode/releases  
+(...)  
 2018-09-11: V 0.0.95 Hypernode Pre-release, see https://github.com/bismuthfoundation/Bismuth-FAQ/blob/master/Hypernodes/HN_PreRelease_0-0-95.md
 
 
@@ -29,7 +29,7 @@ We are not against shared Hypernodes but we want to keep the Hypernodes as decen
 
 
 ## ROI
-- For every block on Bismuth mainnet there will be a reward of 2.4IS for hypernodes
+- For every block on Bismuth mainnet there will be a reward of 2.4 $BIS for hypernodes
 - Since there are 1440 blocks per day, that means a total reward for hypernodes of 3,456 $BIS per day
 - The hypernode rewards per week are 24,192 $BIS, per month 103,680 $BIS and per year 1,261,440 $BIS.
 - Running a hypernode requires a collateral amount of minimum 10,000 $BIS.
