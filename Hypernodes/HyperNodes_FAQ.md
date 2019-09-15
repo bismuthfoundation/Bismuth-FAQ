@@ -1,5 +1,7 @@
 # Bismuth HyperNodes FAQ
 
+2019-07-27: v 0.0.99 Release, https://github.com/bismuthfoundation/hypernode/releases
+(...)
 2018-09-11: V 0.0.95 Hypernode Pre-release, see https://github.com/bismuthfoundation/Bismuth-FAQ/blob/master/Hypernodes/HN_PreRelease_0-0-95.md
 
 
@@ -27,13 +29,12 @@ We are not against shared Hypernodes but we want to keep the Hypernodes as decen
 
 
 ## ROI
-- For every block on Bismuth mainnet there will be a reward of 0.8 $BIS for hypernodes
-- Since there are 1440 blocks per day, that means a total reward for hypernodes of 1,152 $BIS per day
-- The hypernode rewards per week are 8,064 $BIS, per month 34,560 $BIS and per year 420,480 $BIS.
+- For every block on Bismuth mainnet there will be a reward of 2.4IS for hypernodes
+- Since there are 1440 blocks per day, that means a total reward for hypernodes of 3,456 $BIS per day
+- The hypernode rewards per week are 24,192 $BIS, per month 103,680 $BIS and per year 1,261,440 $BIS.
 - Running a hypernode requires a collateral amount of minimum 10,000 $BIS.
-- We assume that there will be a total collateral amount of 1,000,000 $BIS (equivalent to 100 nodes with 10k collateral)
-- The return of investment (ROI) will in such a scenario be: 0.8% per week, 3.5% per month and 42.0% per year.
-- The ROI depends on the total amount of collateral. With a collateral less than 1m $BIS, the ROI will be higher. With a colateral higher than 1m $BIS, the ROI will be lower.
+- Total HN collateral as well as current ROI can be found at https://hypernodes.bismuth.live/?page_id=163
+- The ROI depends on the total amount of collateral. The more the HNs, the lower the ROI.
 
 ## Hosting
 
@@ -43,7 +44,7 @@ These are the minimal requirements, subject to modification. Final requirements 
 
 - Linux host (vps or dedicated)
 - 1 dedicated ipv4 address
-- 25 GB SSD disk 
+- 40 GB SSD disk 
 - 4GB Ram
 - 2 CPU cores
 - Unmetered bandwidth can be a plus.
