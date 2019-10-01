@@ -106,7 +106,7 @@ Third tab is for The pawer wallet, our discord integrated wallet.
 
 ![Screen shot](https://github.com/bismuthfoundation/Bismuth-FAQ/raw/master/Voting/vote_tab3.png)
 
-Copy the command string (it's a one liner), paster it in a DM to `@pawer`.
+Copy the command string (it's a one liner), paste it in a DM to `@pawer`.
 
 > Make sure you send from the address you set as "wallet address" (`pawer deposit` will give it to you).  
 > Make sure your transaction is then visible on the explorer at https://bismtuth.online after a few minutes.
