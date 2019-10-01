@@ -5,6 +5,10 @@ First vote takes place during October 2019.
 
 Bismuth Governance uses an innovative protocol to avoid weaknesees of other common voting protocols.
 
+**Warning**:  
+Before voting or revealing a vote, make sure you're in the right period for the related motion, or your vote will not be counted.
+The dates are clearly specified on the motion page.
+
 ## Reference posts
 
 - The Bismuth Governance Shift, Part 1  
@@ -35,14 +39,14 @@ https://bismuthfoundation.github.io/Bismuth-Voting/client-side/dist/index.html
 
 Long way: Clone the repo, get index.html and index.js, run on an airgap computer of yours.
 
-(Screen shot)[]
+![Screen shot](https://github.com/bismuthfoundation/Bismuth-FAQ/raw/master/Voting/vote_init.png)
 
 ### 2. Get a Master Key
 
 Master Key is your private word seed for all voting related operations.  
 Keep it both **private** and **safe** - Backup required. Think of it as your hidden voting identity.
 
-(Screen shot)[]
+![Screen shot](https://github.com/bismuthfoundation/Bismuth-FAQ/raw/master/Voting/vote_masterkey.png)
 
 > The key showed here is one of the test vectors, do not use it ever ;)
 
@@ -59,14 +63,60 @@ May work anyway, but likely to get you in troubles.
 
 This helper is hardcoded for the first motion. You are voting for the supply change.
 
-(snapshot)[]
+The "Wallet address" is **YOUR** address you'll be voting with. It's used to derive a unique voting key for that exclusive address, then motion.
 
-> Make sure your address (RSA or ECDSA) is correctly entered. A mistake in your address means the voting key will be wrong also.  
+![Screen shot](https://github.com/bismuthfoundation/Bismuth-FAQ/raw/master/Voting/vote_full.png)
+
+> Make sure your address (RSA or ECDSA) is correctly entered. A mistake in your address means the voting key will be wrong also. 
 > Take care of the case also, be consistent!
+
+**Double check the amount** you'll be voting with. Must be less than your balance obviously. That is your voting weight.
 
 ### 4. Generate the transaction
 
 Hit the button. This will generate the Bismuth transactions under different formats.
+
+## The transaction formats
+
+### BIS URL Tab
+
+First tab is for wallets supporting bisurl feature (tk_wallet, legacy wallet, Tornado wallet)
+
+![Screen shot](https://github.com/bismuthfoundation/Bismuth-FAQ/raw/master/Voting/vote_tab1.png)
+
+Copy the bisurl (it's a one liner), paste into the wallet, load and send.  
+
+> Make sure you send from the address you set as "wallet address".  
+> Make sure your transaction is then visible on the explorer at https://bismtuth.online after a few minutes.
+
+### Raw Txn Tab
+
+Second tab is for wallets without Bisurl feature yet (Like Chameleon mobile Wallet)
+
+![Screen shot](https://github.com/bismuthfoundation/Bismuth-FAQ/raw/master/Voting/vote_tab2.png)
+
+Copy all 4 transactions elements one by one (recipient, amount, operation, data) then send.
+
+> Make sure you send from the address you set as "wallet address".  
+> Make sure your transaction is then visible on the explorer at https://bismtuth.online after a few minutes.
+
+### Pawer Tab
+
+Third tab is for The pawer wallet, our discord integrated wallet.
+
+![Screen shot](https://github.com/bismuthfoundation/Bismuth-FAQ/raw/master/Voting/vote_tab3.png)
+
+Copy the command string (it's a one liner), paster it in a DM to `@pawer`.
+
+> Make sure you send from the address you set as "wallet address" (`pawer deposit` will give it to you).  
+> Make sure your transaction is then visible on the explorer at https://bismtuth.online after a few minutes.
+
+### Advanced/Debug Tab
+
+Debug and internal info you shouldn't need.  
+If you want to be extra safe, you can copy this info and keep it safe.
+
+
 
 
 
