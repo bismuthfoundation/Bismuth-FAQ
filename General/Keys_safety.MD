@@ -78,4 +78,7 @@ To encrypt you wallet.der, open wallet.exe or wallet.py and click on "send" tab 
 
 ## Paper wallet?
 
-Several people working on it.
+BIS Paper - https://github.com/AngainorDev/BIS-Paper
+- HD Paper wallet
+- ECDSA keys scheme
+- Support for Chameleon wallet seeds (After september 2019), see "options" button.
