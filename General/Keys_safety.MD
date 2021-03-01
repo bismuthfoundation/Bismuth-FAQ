@@ -13,7 +13,7 @@ Your keys are all that is needed to access your wallet.
 They are the important thing to care about.
 
 ## So, Where are my keys?
-**Version: before 4.2.4.1**
+**Bismuth Light Wallet Version: before 4.2.4.1**
 
 When you run a node for the first time, the node generates a brand new address for you, and a set of private/public key.  
 Those are the 3 files in your bismuth dir:
@@ -23,7 +23,7 @@ Those are the 3 files in your bismuth dir:
 
 Both .der files you have to take care of. Backup in a secure place, and do not, EVER, give you privkey to anyone.
 
-**Since Version 4.2.4.1**
+**Bismuth Light Wallet - Since Version 4.2.4.1**
 
 When you run a node for the first time, there are no keys present, the node generates a brand new address for you and one file containing the private and the public key:
 - wallet.der
@@ -59,6 +59,7 @@ If you want some kind of cold storage, and do not need to spent your BIS right n
 - copy the address.txt, you'll need it to send BIS to.
 - store on secure offline storage the .der files and matching address.txt
 - delete the .der
+- generate Keys offline using the HD Paper Wallet
 
 Then, you'll be able to check your balance at any moment, via http://bismuth.online for instance.  
 You will be able to feed your account at any time, just need your address
@@ -80,5 +81,6 @@ To encrypt you wallet.der, open wallet.exe or wallet.py and click on "send" tab 
 
 BIS Paper - https://github.com/AngainorDev/BIS-Paper
 - HD Paper wallet
+- Paper Wallet seed can be imported into the mobile 'My Bismuth Wallet'
 - ECDSA keys scheme
-- Support for Chameleon wallet seeds (After september 2019), see "options" button.
+- Support for Chameleon wallet seeds (After september 2019), see "options" button
