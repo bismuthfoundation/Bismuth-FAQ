@@ -41,21 +41,21 @@ Crystal menu, tick to activate "EthBridge", then restart the wallet (only needed
 > Send native BIS to the bridge, get wBIS on ETH (same amount less 5 BIS fees)
 
 - Pick "BIS->WBIS 1/2" menu - also available from "swaps" page
-- Fill in ETH recipient and amount
+- Fill in ETH recipient and amount **double check your ETH address, no going back**
 - Send the BIS
 - Go to "Swaps" page
 - wait for the BIS confs, then for the mint to be signed
 - Use the "proxy mint" link to mint your wBIS (auto filled params)
 - Your ETH wBIS balance is updated
 
-[Detailled step by step with snapshots](BIS_TO_WBIS_DETAIL.md)
+[Detailled step by step with screenshots](BIS_TO_WBIS_DETAIL.md)
 
 ## wBIS to BIS
 
 > Burn wBIS on ETH, get native BIS on BIS chain (same amount less 5 BIS fees)
 
 - Pick "wBIS->BIS" menu - also available from "swaps" page
-- Fill in BIS recipient and amount
+- Fill in BIS recipient and amount  **double check your BIS address, no going back**
 - Check and adjust gas price
 - Burn the wBIS
 - wait for the ETH confs, then for the oracle and delivery to be signed
