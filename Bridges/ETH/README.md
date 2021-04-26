@@ -10,6 +10,8 @@ wBIS is an ERC-20 ETH Token with 1:1 native BIS counterpart.
 - Decimals: 8 (same as native BIS)
 - Custom logo: `https://raw.githubusercontent.com/bismuthfoundation/MEDIA-KIT/master/Logo_v2/wbis500x500.png`
 
+<img src="wbis500x500t.png" width="100" height="100" />
+
 The Eth bridge crystal comes with a one-click button to set up the correct custom token on your metamask extension. 
 
 The Bridge is decentralized and runs thanks to a custom BIS protocol.  
