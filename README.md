@@ -10,10 +10,14 @@ Open issues to propose a subject._
 
 ## Exchanges
 
-Details for operating on individual exchanges.
+Details for operating on individual exchanges.  
 - [FAQ and user help](Exchanges) to deposit and withdraw on the exchanges BIS is listed on.
 - Exchanges willing to list BIS will refer to our official [implementation guide](Exchanges/How_to_Implement.md)
 - [What is an Egg?](Exchanges/WTF_is_an_egg.MD)
+
+Decentralized exchanges and bridges  
+- wBIS is an ERC-20 ETH Token with 1:1 native BIS counterpart.  
+  [ETH Bridge FAQ and howto](Bridge/ETH/README.md) 
 
 ## General
 [Background](General) info about Bismuth usage, community.
