@@ -62,6 +62,9 @@ Crystal menu, tick to activate "EthBridge", then restart the wallet (only needed
 - You can go to "Swaps" page to monitor the progress
 - Your BIS balance is updated
 
+# Liquidity Farming
 
+By staking your wBIS/ETH liquidity, you can earn wBIS through our Unicrypt farm.  
+The farm will operate from April 28 2021  and you can already stake there.  
+Here is a full step by step guide: https://github.com/bismuthfoundation/Bismuth-FAQ/blob/master/Bridges/ETH/unicrypt_farming.md
  
-  
