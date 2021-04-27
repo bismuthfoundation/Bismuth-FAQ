@@ -17,7 +17,7 @@ Details for operating on individual exchanges.
 
 Decentralized exchanges and bridges  
 - wBIS is an ERC-20 ETH Token with 1:1 native BIS counterpart.  
-  [ETH Bridge FAQ and howto](Bridge/ETH/README.md) 
+  [ETH Bridge FAQ and howto](Bridges/ETH/README.md) 
 
 ## General
 [Background](General) info about Bismuth usage, community.
