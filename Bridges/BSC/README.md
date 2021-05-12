@@ -29,12 +29,27 @@ Crystal menu, tick to activate "BscBridge", then restart the wallet (only needed
 ## Pre-requisites
 
 - A Tornado allet, version >= 0.1.43
+- BSC Smart Chain Network added to Metamask
 - Activated BscBridge crystal, showing its logo
 - Metamask installed with an BSC address configured and some BNB funds for tx fees  
 - Basic knowledge of BSC and related gas fees
 
 
 - Once the Bscbridge crystal is active, use the "Add to Metamask" green button from the BscBridge main menu to add the right token to your metamask.
+
+## Add BSC Smart Chain network to Metamask
+
+Open Metamask and click on 'My Accounts' > 'Settings' > 'Networks' > 'Add Network'
+
+Fill in the following data for the BSC Mainnet.
+
+Network Name: BSC Smart Chain
+New RPC URL: https://bsc-dataseed.binance.org/
+ChainID: 56
+Symbol: BNB
+Block Explorer URL: https://bscscan.com
+
+![](pics/bsc-metamask.png)
 
 ## BIS to wBIS
 
