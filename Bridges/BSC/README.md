@@ -4,7 +4,7 @@ wBIS is an BEP-20 BNB Token with 1:1 native BIS counterpart.
 
 ## wBIS Token
 
-- Chain: ETH Mainnet
+- Chain: BSC Smart Chain
 - Contract address: `0x56672ecb506301b1E32ED28552797037c54D36A9`  ([View on bscscan](https://bscscan.com/token/0x56672ecb506301b1E32ED28552797037c54D36A9))
 - Name: Wrapped BIS
 - Decimals: 8 (same as native BIS)
@@ -24,12 +24,12 @@ It relies on Both a bridge and an oracle.
 The bridge being decentralized, the user GUI is available as a Crystal within the Tornado Bismuth Wallet, since v0.1.43.  
 [Tornado Bismuth Wallet releases](https://github.com/bismuthfoundation/TornadoWallet/releases)
 
-Crystal menu, tick to activate "EthBridge", then restart the wallet (only needed for first activation).
+Crystal menu, tick to activate "BscBridge", then restart the wallet (only needed for first activation).
 
 ## Pre-requisites
 
 - A Tornado allet, version >= 0.1.43
-- Activated EthBridge crystal, showing its logo
+- Activated BscBridge crystal, showing its logo
 - Metamask installed with an BSC address configured and some BNB funds for tx fees  
 - Basic knowledge of BSC and related gas fees
 
@@ -38,7 +38,7 @@ Crystal menu, tick to activate "EthBridge", then restart the wallet (only needed
 
 ## BIS to wBIS
 
-> Send native BIS to the bridge, get wBIS on ETH (same amount less 5 BIS fees)
+> Send native BIS to the bridge, get wBIS on BSC (same amount less 5 BIS fees)
 
 - Pick "BIS->WBIS 1/2" menu - also available from "swaps" page
 - Fill in BSC recipient and amount **double check your BSC address, no going back**
@@ -52,7 +52,7 @@ Crystal menu, tick to activate "EthBridge", then restart the wallet (only needed
 
 ## wBIS to BIS
 
-> Burn wBIS on ETH, get native BIS on BIS chain (same amount less 5 BIS fees)
+> Burn wBIS on BSC, get native BIS on BIS chain (same amount less 5 BIS fees)
 
 - Pick "wBIS->BIS" menu - also available from "swaps" page
 - Fill in BIS recipient and amount  **double check your BIS address, no going back**
