@@ -37,19 +37,19 @@ Crystal menu, tick to activate "BscBridge", then restart the wallet (only needed
 
 - Once the Bscbridge crystal is active, use the "Add to Metamask" green button from the BscBridge main menu to add the right token to your metamask.
 
-## Add BSC Smart Chain network to Metamask
+## Add BSC network to Metamask
 
 Open Metamask and click on 'My Accounts' > 'Settings' > 'Networks' > 'Add Network'
 
 Fill in the following data for the BSC Mainnet.
 
-Network Name: BSC Smart Chain
-New RPC URL: https://bsc-dataseed.binance.org/
-ChainID: 56
-Symbol: BNB
-Block Explorer URL: https://bscscan.com
+- Network Name: BSC Smart Chain
+- New RPC URL: https://bsc-dataseed.binance.org/
+- ChainID: 56
+- Symbol: BNB
+- Block Explorer URL: https://bscscan.com
 
-![](pics/bsc-metamask.png)
+![](pics/bsc-metamask-450.png)
 
 ## BIS to wBIS
 
