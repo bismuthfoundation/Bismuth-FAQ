@@ -21,7 +21,7 @@ At least **50gb** SSD are currently advised. Hard drive should also work.
 ## B. One liner
 
 Paste the following line, then hit 'enter':  
-`curl https://raw.githubusercontent.com/bismuthfoundation/hypernode/beta99/auto-install/bis-install-u20.sh|bash`
+`curl https://raw.githubusercontent.com/bismuthfoundation/hypernode/master/auto-install/bis-install-u20.sh|bash`
 
 - The server will do its things for a few minutes
 - The vps will then reboot, you'll lose the connection.  
