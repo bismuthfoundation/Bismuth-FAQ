@@ -3,7 +3,7 @@
 WIP
 
 ## Official Website
-- http://Bismuth.cz
+- https://bismuthplatform.com
 
 
 ## Forums & co
