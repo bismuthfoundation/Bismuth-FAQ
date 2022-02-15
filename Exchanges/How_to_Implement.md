@@ -41,7 +41,8 @@ Most of the companion projects are under the BismuthFoundation organization or E
 
 ## Official explorers
 
-- http://bismuth.online (with API)  
+- https://bismuth.online (with API)  
+- https://bismuth.im (fallback with API)  
 - https://hypernodes.bismuth.live/?page_id=83
 
 # Interact with BIS
@@ -51,7 +52,9 @@ Most of the companion projects are under the BismuthFoundation organization or E
 You can interact with BIS
 
 - With the official explorer API  
-  http://bismuth.online/apihelp  
+  https://bismuth.online/apihelp  
+- Fallback explorer API  
+  https://bismuth.im/apihelp  
 - With an extra - bitcoin alike - json-rpc server  
 - With the native API   
 - Straight by querying/feeding the DB
