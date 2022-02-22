@@ -1,6 +1,6 @@
 # Bismuth How-to
-Official Bismuth Cryptocurrency Website: https://bismuthplatform.com
-Wallet, mining, nodes and such.
+Official Bismuth Cryptocurrency Website  
+https://bismuthplatform.com - Wallet, mining, nodes and such.
 
 Initiated by [EggPool](https://EggPool.Net).
 Now maintained by the Bismuth Foundation.
