@@ -1,5 +1,5 @@
 # Bismuth How-to
-Official how tos and base info for [Bismuth Crypto Currency](https://bismuth.cz).  
+Official Bismuth Cryptocurrency Website: https://bismuthplatform.com
 Wallet, mining, nodes and such.
 
 Initiated by [EggPool](https://EggPool.Net).
