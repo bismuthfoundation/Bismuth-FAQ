@@ -1,5 +1,7 @@
 # A few community Videos
 
+Video list ordered by date and subject
+- [Bismuth Videos List](https://github.com/bismuthfoundation/Awesome-Bismuth/blob/master/Videos.md) (more than 40 videos)
 
 ## How to mine Bismuth on GPU
 
