@@ -18,6 +18,6 @@ WIP / Any suggestions?
 
 ## Bismuth inactive exchanges
 
-- [Top BTC](https://github.com/bismuthfoundation/Bismuth-FAQ/blob/master/Exchanges/topbtc/TOP_BTC.MD)
+- [Top BTC](https://github.com/bismuthfoundation/Bismuth-FAQ/blob/master/Exchanges/topbtc/TOP_BTC.md)
 - [Cryptopia](https://github.com/bismuthfoundation/Bismuth-FAQ/blob/master/Exchanges/cryptopia/Cryptopia.MD)
-- [HEAT](https://github.com/bismuthfoundation/Bismuth-FAQ/blob/master/Exchanges/heat/HEAT.MD)
+- [HEAT](https://github.com/bismuthfoundation/Bismuth-FAQ/blob/master/Exchanges/heat/HEAT.md)
