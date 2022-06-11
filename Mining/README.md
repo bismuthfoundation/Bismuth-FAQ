@@ -6,6 +6,10 @@ Bismuth is currently GPU mine-able.
 
 Official EggPool FAQ and resources: [Mining Bismuth on EggPool](https://github.com/EggPool/BismuthHowto/tree/master/Mini). 
 
+## Open source miner
+
+[kbkminer](https://github.com/bismuthfoundation/kbkminer) - GPU CUDA Miner for Bismuth
+
 ## Bis-Pool
 
 More Info at the website: [Bis-Pool](https://bis-pool.io/)  
