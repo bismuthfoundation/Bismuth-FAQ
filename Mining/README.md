@@ -10,7 +10,11 @@ Official EggPool FAQ and resources: [Mining Bismuth on EggPool](https://github.c
 
 [kbkminer](https://github.com/bismuthfoundation/kbkminer) - GPU CUDA Miner for Bismuth
 
-## Bis-Pool
+## Coinsaurus
+
+Mining pool information: [Coinsaurus](https://bismuth.coinsaurus.com/)  
+
+## Bis-Pool (currently inactive)
 
 More Info at the website: [Bis-Pool](https://bis-pool.io/)  
 Support at the [Bismuth Discord Server](https://discord.bismuth.cz) channel #bis-pool
