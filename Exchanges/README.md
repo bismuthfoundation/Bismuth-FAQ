@@ -9,8 +9,9 @@ WIP / Any suggestions?
 
 ## Bismuth active exchanges
 
-- [qTrade Exchange](https://github.com/bismuthfoundation/Bismuth-FAQ/blob/master/Exchanges/qtrade/qTrade.io.MD)
-- [Graviex Exchange](https://github.com/bismuthfoundation/Bismuth-FAQ/blob/master/Exchanges/graviex/graviex.com.MD)
+- [Xeggex](https://xeggex.com/markets) - [BIS/USDT](https://xeggex.com/market/BIS_USDT) - [BIS/LTC](https://xeggex.com/market/BIS_LTC)
+- [Graviex](https://graviex.net/markets/bisbtc)  
+- [Graviex Exchange Readme](https://github.com/bismuthfoundation/Bismuth-FAQ/blob/master/Exchanges/graviex/graviex.com.MD)
 - External link to [Vite Exchange](https://x.vite.net/trade?symbol=BIS-000_BTC-000&category=BTC)
 - External link to [FinexBox](https://www.finexbox.com/market/pair/BIS-BTC.html)
 - External link to [Pancakeswap](https://www.dextools.io/app/bsc/pair-explorer/0x731b8244f818fd488d9dc516edd976a96459ae59) (wrapped BIS - BNB)
@@ -19,6 +20,7 @@ WIP / Any suggestions?
 
 ## Bismuth inactive exchanges
 
+- [qTrade Exchange](https://github.com/bismuthfoundation/Bismuth-FAQ/blob/master/Exchanges/qtrade/qTrade.io.MD)
 - [Top BTC](https://github.com/bismuthfoundation/Bismuth-FAQ/blob/master/Exchanges/topbtc/TOP_BTC.md)
 - [Cryptopia](https://github.com/bismuthfoundation/Bismuth-FAQ/blob/master/Exchanges/cryptopia/Cryptopia.MD)
 - [HEAT](https://github.com/bismuthfoundation/Bismuth-FAQ/blob/master/Exchanges/heat/HEAT.md)
