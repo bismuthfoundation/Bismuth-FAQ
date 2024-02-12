@@ -41,8 +41,8 @@ Most of the companion projects are under the BismuthFoundation organization or E
 
 ## Official explorers
 
+- https://bismuth.im (with API)  
 - https://bismuth.online (with API)  
-- https://bismuth.im (fallback with API)  
 - https://hypernodes.bismuth.live/?page_id=83
 
 # Interact with BIS
