@@ -16,8 +16,8 @@ The Eth bridge crystal comes with a one-click button to set up the correct custo
 
 The Bridge is decentralized and runs thanks to a custom BIS protocol.  
 It relies on Both a bridge and an oracle.  
-- BIS Bridge Address: Bis1UBRiDGEQc9mBywXpwFZX6LF7hN4i8Qy9m ([View on explorer](http://bismuth.online/search?quicksearch=Bis1UBRiDGEQc9mBywXpwFZX6LF7hN4i8Qy9m))
-- BIS Oracle Address: Bis1XETHbisxnShtghYQJDbf8o5gsQczW8Gp2 ([View on explorer](http://bismuth.online/search?quicksearch=Bis1XETHbisxnShtghYQJDbf8o5gsQczW8Gp2))
+- BIS Bridge Address: Bis1UBRiDGEQc9mBywXpwFZX6LF7hN4i8Qy9m ([View on explorer](http://bismuth.im/search?quicksearch=Bis1UBRiDGEQc9mBywXpwFZX6LF7hN4i8Qy9m))
+- BIS Oracle Address: Bis1XETHbisxnShtghYQJDbf8o5gsQczW8Gp2 ([View on explorer](http://bismuth.im/search?quicksearch=Bis1XETHbisxnShtghYQJDbf8o5gsQczW8Gp2))
 
 # Using the bridge
 

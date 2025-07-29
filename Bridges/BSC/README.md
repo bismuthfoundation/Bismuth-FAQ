@@ -16,8 +16,8 @@ The Bsc bridge crystal comes with a one-click button to set up the correct custo
 
 The Bridge is decentralized and runs thanks to a custom BIS protocol.  
 It relies on Both a bridge and an oracle.  
-- BIS Bridge Address: Bis1FWBNBbrYZkQmCYQf8FQWTUCFEreUeT71 ([View on explorer](http://bismuth.online/search?quicksearch=Bis1FWBNBbrYZkQmCYQf8FQWTUCFEreUeT71))
-- BIS Oracle Address: Bis1XBNBY66wngPLVwbRbnSs4ScVBwE3iM7kL ([View on explorer](http://bismuth.online/search?quicksearch=Bis1XBNBY66wngPLVwbRbnSs4ScVBwE3iM7kL))
+- BIS Bridge Address: Bis1FWBNBbrYZkQmCYQf8FQWTUCFEreUeT71K ([View on explorer](http://bismuth.im/search?quicksearch=Bis1FWBNBbrYZkQmCYQf8FQWTUCFEreUeT71K))
+- BIS Oracle Address: Bis1XBNBY66wngPLVwbRbnSs4ScVBwE3iM7kL ([View on explorer](http://bismuth.im/search?quicksearch=Bis1XBNBY66wngPLVwbRbnSs4ScVBwE3iM7kL))
 
 # Using the bridge
 
