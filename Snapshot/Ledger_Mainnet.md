@@ -3,7 +3,7 @@
 Snapshot Block Height: 4,595,000
 Date: December 15, 2025
 
-This **guide** provides step-by-step instructions to download and apply a snapshot of the Bismuth mainnet database at block height 4,405,000.
+This **guide** provides step-by-step instructions to download and apply a snapshot of the Bismuth mainnet database.
 
 ## Prerequisites
 - Access to your Bismuth node server
