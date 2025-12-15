@@ -27,15 +27,15 @@ Change to the `Bismuth/static` directory:
 ```cd Bismuth/static``` 
 
 Download the snapshot:
-```wget https://bismuth.world/snapshot/ledger-4405000.tar.gz```
+```wget https://bismuth.world/snapshot/ledger-4595000.tar.gz```
 
 ### 4. Remove Old Database Files
 Before extracting the snapshot, delete any old database files to prevent conflicts:
-```rm ledger.db hyper.db index.db```
+```rm ledger.db* hyper.db* index.db```
 
 ### 5. Extract the Snapshot
 Extract the snapshot within the `Bismuth/static/` folder:
-```tar -xvzf ledger-4405000.tar.gz```
+```tar -xvzf ledger-4595000.tar.gz```
 
 ### 6. Update peers.txt File (Optional)
 For optimal network connectivity, ensure you have the latest `peers.txt` file:
