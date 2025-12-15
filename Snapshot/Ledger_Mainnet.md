@@ -1,7 +1,7 @@
 ## Guideline - Bismuth Ledger Mainnet Snapshot
 
-Snapshot Block Height: 4,405,000
-Date: August 8, 2025
+Snapshot Block Height: 4,595,000
+Date: December 15, 2025
 
 This **guide** provides step-by-step instructions to download and apply a snapshot of the Bismuth mainnet database at block height 4,405,000.
 
