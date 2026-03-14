@@ -35,7 +35,7 @@ Before extracting the snapshot, delete any old database files to prevent conflic
 
 ### 5. Extract the Snapshot
 Extract the snapshot within the `Bismuth/static/` folder:
-```tar -xvzf ledger-4595000.tar.gz```
+```tar -xvzf ledger-4721000.tar.gz```
 
 ### 6. Update peers.txt File (Optional)
 For optimal network connectivity, ensure you have the latest `peers.txt` file:
