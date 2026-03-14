@@ -1,7 +1,7 @@
 ## Guideline - Bismuth Ledger Mainnet Snapshot
 
-Snapshot Block Height: 4,595,000
-Date: December 15, 2025
+Snapshot Block Height: 4,721,000
+Date: March 12, 2026
 
 This **guide** provides step-by-step instructions to download and apply a snapshot of the Bismuth mainnet database.
 
@@ -27,7 +27,7 @@ Change to the `Bismuth/static` directory:
 ```cd Bismuth/static``` 
 
 Download the snapshot:
-```wget https://bismuth.world/snapshot/ledger-4595000.tar.gz```
+```wget https://bismuth.world/snapshot/ledger-4721000.tar.gz```
 
 ### 4. Remove Old Database Files
 Before extracting the snapshot, delete any old database files to prevent conflicts:
